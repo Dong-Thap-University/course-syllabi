@@ -5,6 +5,7 @@
 \usepackage{longtable}
 \usepackage{enumitem}
 \usepackage{setspace}
+\usepackage{array}
 \linespread{1.5}
 \geometry{margin=2.5cm}
 \setlength{\parskip}{0.5em}
@@ -166,12 +167,15 @@ HĐ 9.4 & Thực hành & Làm bài tập theo chủ đề & 5.1.1–5.1.3 & 0.5 
 \end{longtable}
 
 \vspace{2em}
-\noindent Đồng Tháp, ngày \rule{2cm}{0.2pt} tháng \rule{2cm}{0.2pt} năm 2022
+\begin{flushright}
+    Đồng Tháp, ngày \rule{1cm}{0.2pt} tháng \rule{1cm}{0.2pt} năm \rule{1.5cm}{0.2pt}
+\end{flushright}
 
-\vspace{2em}
-\begin{tabbing}
-\hspace{6cm} \= \hspace{6cm} \= \kill
-Trưởng khoa \> Trưởng bộ môn \> Giảng viên
-\end{tabbing}
+\begin{center}
+    \begin{tabular}{>{\centering\arraybackslash}p{5cm} >{\centering\arraybackslash}p{5cm} >{\centering\arraybackslash}p{5cm}}
+        \textbf{Trưởng khoa} & \textbf{Trưởng bộ môn} & \textbf{Giảng viên} \\
+        (Ký tên, ghi rõ họ tên) & (Ký tên, ghi rõ họ tên) & (Ký tên, ghi rõ họ tên kiet) \\
+    \end{tabular}
+\end{center}
 
 \end{document}

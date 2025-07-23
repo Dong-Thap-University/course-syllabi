@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2025.7.23)  24 JUL 2025 00:12
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2025.7.23)  24 JUL 2025 00:24
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -270,6 +270,15 @@ Package: enumitem 2025/02/06 v3.11 Customized lists
 \enitdp@description=\count294
 ) (/Users/steven/Library/Application Support/MiKTeX/texmfs/install/tex/latex/setspace/setspace.sty
 Package: setspace 2022/12/04 v6.7b set line spacing
+) (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/tools/array.sty
+Package: array 2025/06/08 v2.6j Tabular extension package (FMi)
+\col@sep=\dimen160
+\ar@mcellbox=\box59
+\extrarowheight=\dimen161
+\NC@list=\toks23
+\extratabsurround=\skip56
+\backup@length=\skip57
+\ar@cellbox=\box60
 ) (/Users/steven/Library/Application Support/MiKTeX/texmfs/install/tex/latex/sectsty/sectsty.sty
 Package: sectsty 2002/02/25 v2.0.2 Commands to change all sectional heading styles
 
@@ -299,22 +308,22 @@ Package babel Info: 'vietnamese' activates 'vietnamese' shorthands.
 )
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for T5/cmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for T5/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -351,11 +360,11 @@ LaTeX Font Info:    ... okay on input line 19.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 23.
+(Font)              <7> on input line 24.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 23.
+(Font)              <5> on input line 24.
 
-Overfull \hbox (46.76358pt too wide) in paragraph at lines 23--39
+Overfull \hbox (46.76358pt too wide) in paragraph at lines 24--40
  [] 
  []
 
@@ -364,71 +373,76 @@ Overfull \hbox (46.76358pt too wide) in paragraph at lines 23--39
 [1
 
 {/Users/steven/Library/Application Support/MiKTeX/texmfs/data/fonts/map/pdftex/pdftex.map}]
-Underfull \hbox (badness 6808) in paragraph at lines 77--77
+Underfull \hbox (badness 6808) in paragraph at lines 78--78
 []|\T5/cmr/bx/n/10 Ånh x§ vÓi
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 103--103
+Underfull \hbox (badness 10000) in paragraph at lines 104--104
 []|\T5/cmr/bx/n/10 Ph˜Ïng ph°p
  []
 
 
-Underfull \hbox (badness 3312) in paragraph at lines 105--105
+Underfull \hbox (badness 3312) in paragraph at lines 106--106
 []|\T5/cmr/m/n/10 Ch˜Ïng 1. TÍng quan:
  []
 
 
-Overfull \hbox (17.32082pt too wide) in alignment at lines 101--115
+Overfull \hbox (19.72078pt too wide) in alignment at lines 102--116
  [] [] [] [] [] 
  []
 
 [2]
-Underfull \hbox (badness 10000) in paragraph at lines 120--120
+Underfull \hbox (badness 10000) in paragraph at lines 121--121
 []|\T5/cmr/bx/n/10 Ph˜Ïng ph°p
  []
 
 
-Overfull \hbox (3.09444pt too wide) in alignment at lines 118--130
+Overfull \hbox (5.4944pt too wide) in alignment at lines 119--131
  [] [] [] [] [] 
  []
 
 [3]
-Overfull \hbox (1.76973pt too wide) in paragraph at lines 135--135
+Overfull \hbox (1.76973pt too wide) in paragraph at lines 136--136
 []|\T5/cmr/bx/n/10 TT| 
  []
 
 
-Underfull \hbox (badness 1748) in paragraph at lines 135--135
+Underfull \hbox (badness 1748) in paragraph at lines 136--136
 []|\T5/cmr/bx/n/10 T†i liªu
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 135--136
+Underfull \hbox (badness 10000) in paragraph at lines 136--137
 []|\T5/cmr/bx/n/10 Tham
  []
 
 
-Underfull \hbox (badness 3312) in paragraph at lines 137--137
+Underfull \hbox (badness 3312) in paragraph at lines 138--138
 []|\T5/cmr/m/n/10 Th˜ viªn L∂ VÙ
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 139--139
+Underfull \hbox (badness 10000) in paragraph at lines 140--140
 []|\T5/cmr/m/n/10 NXB HQG
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 141--141
+Underfull \hbox (badness 10000) in paragraph at lines 142--142
 []|\T5/cmr/m/n/10 NXB HQG
  []
 
 
-Overfull \hbox (167.1318pt too wide) in alignment at lines 133--143
+Overfull \hbox (170.73175pt too wide) in alignment at lines 134--144
  [] [] [] [] [] [] [] [] 
  []
 
 [4]
+Overfull \hbox (7.54723pt too wide) in paragraph at lines 175--179
+ [] 
+ []
+
+
 
 [5] (main.aux)
  ***********
@@ -437,15 +451,15 @@ L3 programming layer <2025-07-11>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 3245 strings out of 470090
- 56513 string characters out of 2481814
- 486964 words of memory out of 3000000
- 31612 multiletter control sequences out of 15000+600000
+ 3312 strings out of 470090
+ 57517 string characters out of 2481814
+ 486387 words of memory out of 3000000
+ 31677 multiletter control sequences out of 15000+600000
  633999 words of font info for 48 fonts, out of 8000000 for 9000
  0 hyphenation exceptions out of 8191
  57i,16n,65p,906b,355s stack positions out of 5000i,500n,10000p,200000b,80000s
  </Users/steven/Library/Application Support/MiKTeX/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1000.pk></Users/steven/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/vntex/vnr/vnbx10.pfb></Users/steven/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/vntex/vnr/vnbx12.pfb></Users/steven/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/vntex/vnr/vnr10.pfb>
-Output written on main.pdf (5 pages, 82783 bytes).
+Output written on main.pdf (5 pages, 83144 bytes).
 PDF statistics:
  38 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

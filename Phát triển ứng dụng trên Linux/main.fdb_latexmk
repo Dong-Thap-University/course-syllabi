@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1753290763.38425 "/Users/steven/repositories/course-syllabi/Phát triển ứng dụng trên Linux/main.tex" "main.pdf" "main" 1753290764.08587 0
+["pdflatex"] 1753291491.79056 "/Users/steven/repositories/course-syllabi/Phát triển ứng dụng trên Linux/main.tex" "main.pdf" "main" 1753291492.42677 0
   "/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/jknappen/ec/tcrm1000.tfm" 1753288632.81427 1436 c7f957a372ef2fbe93c0982f96625e12 ""
   "/Library/Application Support/MiKTeX/texmfs/install/tex/generic/babel/babel.sty" 1753288613.73089 144990 cebd18e5891583d507b0c4173d69f6cf ""
   "/Library/Application Support/MiKTeX/texmfs/install/tex/generic/babel/locale/vi/babel-vi.ini" 1753288613.71553 4805 6d5465d1b19f96370b4033f99e25de20 ""
@@ -13,6 +13,7 @@
   "/Library/Application Support/MiKTeX/texmfs/install/tex/latex/base/size10.clo" 1753288646.14472 8448 686612a86f0e04f41ea577f5ec7e83d8 ""
   "/Library/Application Support/MiKTeX/texmfs/install/tex/latex/graphics/keyval.sty" 1753288636.18278 2671 d9941f4bf4750e9b0603c9a2ec54693b ""
   "/Library/Application Support/MiKTeX/texmfs/install/tex/latex/l3backend/l3backend-pdftex.def" 1753288638.86555 30351 a2b09edc6c93a742566b222c33d0278e ""
+  "/Library/Application Support/MiKTeX/texmfs/install/tex/latex/tools/array.sty" 1753288640.14211 15698 f5f20b24886bb50156054c53e19b13fd ""
   "/Library/Application Support/MiKTeX/texmfs/install/tex/latex/tools/longtable.sty" 1753288640.15476 15912 618223a798a4d829f4d8e1ccf24e518f ""
   "/Users/steven/Library/Application Support/MiKTeX/texmfs/data/fonts/map/pdftex/pdftex.map" 1753289841.2036 88371 b965f57369ed322039596060d18f4416 ""
   "/Users/steven/Library/Application Support/MiKTeX/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1000.pk" 1753289699.04322 11548 bcde8fe08cd41c56b98738811c8b6d09 ""
@@ -33,9 +34,9 @@
   "/Users/steven/Library/Application Support/MiKTeX/texmfs/install/tex/latex/vntex/t5cmr.fd" 1753288707.29864 1333 ab1c3d512aa3d88df568aed3641db58f ""
   "/Users/steven/Library/Application Support/MiKTeX/texmfs/install/tex/latex/vntex/t5enc.def" 1753288707.29924 21986 ccb3b8f7cc27fbd61b3daabbbb82ad3f ""
   "/Users/steven/Library/Application Support/MiKTeX/texmfs/install/tex/latex/vntex/t5enc.dfu" 1753288707.29937 13949 387dd4fa58aea5f873839c93430fffed ""
-  "/Users/steven/repositories/course-syllabi/Phát triển ứng dụng trên Linux/main.tex" 1753290762.59745 8958 01d60b74f48a03134bfa0ee95b358938 ""
-  "main.aux" 1753290763.94637 1061 9fdf936dbfdd80c0f1289bb544a2f5c8 "pdflatex"
-  "main.tex" 1753290762.59745 8958 01d60b74f48a03134bfa0ee95b358938 ""
+  "/Users/steven/repositories/course-syllabi/Phát triển ứng dụng trên Linux/main.tex" 1753291491.10273 9259 7544064b90399f50432b6c53e32b9a14 ""
+  "main.aux" 1753291492.30264 1063 71c5ae612e8f49ee7617faef666ca18b "pdflatex"
+  "main.tex" 1753291491.10273 9259 7544064b90399f50432b6c53e32b9a14 ""
   (generated)
   "main.aux"
   "main.log"
