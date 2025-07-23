@@ -1,0 +1,149 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[vietnamese]{babel}
+\usepackage{geometry}
+\usepackage{longtable}
+\usepackage{enumitem}
+\geometry{margin=2.5cm}
+\setlength{\parskip}{0.5em}
+\setlength{\parindent}{0pt}
+
+\title{ĐỀ CƯƠNG CHI TIẾT HỌC PHẦN}
+\author{}
+\date{}
+
+\begin{document}
+\maketitle
+
+\section*{1. Thông tin về học phần}
+\begin{itemize}
+    \item Tên học phần: Hệ quản trị CSDL SQL Server
+    \item Mã lớp học phần: ...
+    \item Số tín chỉ: 2
+    \item Số tiết tín chỉ: 20/20/60
+    \item Học phần điều kiện: IN4107
+\end{itemize}
+
+\section*{2. Thông tin về giảng viên}
+\begin{itemize}
+    \item Họ và tên: Nguyễn Quốc Anh
+    \item Chức danh, học vị: Thạc sĩ
+    \item Điện thoại: 0939691844
+    \item Email: nqanh@dthu.edu.vn
+    \item Đơn vị: Khoa Sư phạm Toán - Tin
+\end{itemize}
+
+\section*{3. Tổng quan về học phần}
+Học phần hệ quản trị CSDL SQL Server được trình bày trong 5 chương, thời lượng chương trình là 40 tiết. Học xong học phần này, sinh viên hiểu khái niệm cơ bản của hệ quản trị CSDL SQL Server, các lệnh cơ bản của ngôn ngữ SQL. Cài đặt và cấu hình để thực thi SQL Server, tạo CSDL quan hệ để đưa dữ liệu vào lưu trữ, tạo và thực thi các View để xử lý dữ liệu trên nhiều bảng theo yêu cầu người dùng, tạo lập và thực thi các thủ tục bằng Stored Procedure. Tạo lập và in các báo cáo để kết xuất dữ liệu ở các bảng theo yêu cầu người dùng, tạo ra người dùng và phân quyền sử dụng cho người dùng đối với CSDL.
+
+\section*{4. Mục tiêu học phần}
+\begin{enumerate}[label=4.\arabic*.]
+    \item Vận dụng kiến thức đã học để thiết kế, tổ chức, quản lý dữ liệu trên hệ quản trị CSDL SQL Server trong việc xây dựng ứng dụng nền tảng Web, Windows Form.
+    \item Rèn luyện kỹ năng lập trình và ứng dụng thành thạo với các ngôn ngữ lập trình khác khi triển khai thực tế.
+    \item Nâng cao ý thức trách nhiệm bản thân trong quá trình tự học tự nghiên cứu và tham gia làm việc nhóm.
+\end{enumerate}
+
+\section*{5. Chuẩn đầu ra học phần}
+\begin{longtable}{|p{2cm}|p{6.5cm}|p{2.5cm}|p{3cm}|}
+\hline
+\textbf{Mã} & \textbf{Mô tả chuẩn đầu ra} & \textbf{Ánh xạ với CĐR CTĐT} & \textbf{Đánh giá mức độ năng lực} \\
+\hline
+\multicolumn{4}{|l|}{\textbf{5.1 Kiến thức}} \\
+\hline
+5.1.1 & Trình bày được các khái niệm chính trong một hệ quản trị cơ sở dữ liệu và mô hình kết nối truy xuất theo cơ chế khách chủ. & 1.5 & 5/6 \\
+\hline
+5.1.2 & Hiểu ngôn ngữ định nghĩa dữ liệu và ngôn ngữ thao tác dữ liệu đồng thời vận dụng giao tác để triển khai các dự án phần mềm. & 1.5 & 5/6 \\
+\hline
+5.1.3 & Biết quản trị người dùng, tổ chức sao lưu, phục hồi cơ sở dữ liệu. & 1.5 & 5/6 \\
+\hline
+\multicolumn{4}{|l|}{\textbf{5.2 Kỹ năng}} \\
+\hline
+5.2.1 & Quản trị và phát triển các hệ thống đã có, khắc phục các sự cố và giải quyết các vấn đề phát sinh trong cập nhật dữ liệu và giao tác. & 2.2 & 4/5 \\
+\hline
+\multicolumn{4}{|l|}{\textbf{5.3 Phẩm chất đạo đức, mức tự chủ và trách nhiệm}} \\
+\hline
+5.3.1 & Thực hiện nghiêm túc nội quy lớp học và quy định của học phần. & 3.1 & 4/5 \\
+\hline
+5.3.2 & Rèn luyện tính kỷ cương, cẩn thận, độ chính xác khi xây dựng và quản trị một CSDL. & 3.2 & 4/5 \\
+\hline
+\end{longtable}
+
+\section*{6. Nội dung học phần và kế hoạch dạy học}
+\subsection*{6.1. Lý thuyết}
+\begin{longtable}{|p{4cm}|p{2cm}|p{2cm}|p{3cm}|p{3.5cm}|}
+\hline
+\textbf{Chương/Chủ đề} & \textbf{Số tiết} & \textbf{CĐR} & \textbf{Phương pháp dạy - học} & \textbf{Hoạt động đánh giá} \\
+\hline
+Chương 1. Tổng quan: SQL Server, mô hình truy nhập, kiến trúc, đặc điểm, Management Studio & 2 & 5.1.1 & GV thuyết trình & \#HĐ9.4 \\
+\hline
+Chương 2. Quản trị SQL Server: DDL, DML, truy vấn, chỉ mục, DCL & 2 & 5.1.1 & GV thuyết trình & \#HĐ9.4 \\
+\hline
+Chương 3. Thủ tục, hàm, Trigger & 8 & 5.1.2 & GV thuyết trình & \#HĐ9.2, \#HĐ9.4 \\
+\hline
+Chương 4. Bảo mật dữ liệu: quyền, người dùng, kỹ thuật bảo mật & 4 & 5.1.3 & GV thuyết trình & \#HĐ9.3, \#HĐ9.4 \\
+\hline
+Chương 5. Giao tác \& Sao lưu phục hồi & 4 & 5.1.2, 5.1.3 & GV thuyết trình & \#HĐ9.4 \\
+\hline
+\end{longtable}
+
+\subsection*{6.2. Thực hành, thí nghiệm, thực tế}
+\begin{longtable}{|p{4cm}|p{1.5cm}|p{2cm}|p{3cm}|p{3.5cm}|}
+\hline
+\textbf{Chương/Chủ đề} & \textbf{Số tiết} & \textbf{Chuẩn đầu ra} & \textbf{Phương pháp dạy - học} & \textbf{Chuẩn bị của sinh viên} \\
+\hline
+Chương 2: Quản trị CSDL SQL Server \newline - Tạo bảng dữ liệu \newline - Sửa đổi định nghĩa bảng \newline - Xóa bảng \newline - Khung nhìn \newline - Truy vấn dữ liệu \newline - Chèn, Cập nhật, Xóa dữ liệu & 4 & 5.1.2 & SV thực hành theo yêu cầu & Xem [1][2] \\
+\hline
+Chương 3. Thủ tục, hàm, và trình kích khởi \newline - Thủ tục lưu trữ (stored procedure) \newline - Hàm do người dùng định nghĩa \newline - Trigger & 8 & 5.1.2 & SV thực hành theo yêu cầu & Xem [1][3] \\
+\hline
+Chương 4: Bảo mật trong SQL \newline - Các khái niệm \newline - Cấp phát quyền \newline - Thu hồi quyền & 4 & 5.1.3 & SV thực hành theo yêu cầu & Xem [1][4] \\
+\hline
+Chương 5. Giao tác \newline - Giao tác và các tính chất của giao tác \newline - Mô hình giao tác trong SQL \newline - Giao tác lồng nhau & 4 & 5.1.2 & SV thực hành theo yêu cầu & Xem [1][3] \\
+\hline
+\end{longtable}
+
+\section*{7. Tài liệu học tập}
+\begin{longtable}{|p{0.5cm}|p{3cm}|p{4cm}|p{2cm}|p{3cm}|p{3cm}|p{1.5cm}|p{1.5cm}|}
+\hline
+\textbf{TT} & \textbf{Tên tác giả} & \textbf{Tên tài liệu} & \textbf{Năm XB} & \textbf{Nhà xuất bản} & \textbf{Địa chỉ khai thác} & \textbf{Tài liệu chính} & \textbf{Tham khảo} \\
+\hline
+1 & Đặng Quốc Bảo & Cơ sở dữ liệu & 2020 & NXB ĐHCT & Thư viện Lê Vũ Hùng & x & \\
+\hline
+2 & Dương Tuấn Anh & Hệ cơ sở dữ liệu & 2006 & NXB ĐHQG TP.HCM & & & x \\
+\hline
+3 & Đỗ Trung Tuấn & Cơ sở dữ liệu & 1997 & NXB ĐHQG TP.HCM & & & \\
+\hline
+\end{longtable}
+
+\section*{8. Quy định đối với sinh viên}
+\begin{itemize}
+    \item Tuân thủ nghiêm túc các nội quy và quy định của Khoa và Trường khi vào lớp học.
+    \item Không được vắng quá 20\% số tiết học.
+    \item Mọi hành vi gian lận trong học tập bị xử lý và cho 0 điểm.
+    \item Tài khoản trực tuyến phải định danh bằng MSSV, họ tên và ảnh thật.
+\end{itemize}
+
+\section*{9. Đánh giá kết quả học tập}
+\begin{longtable}{|p{2cm}|p{3cm}|p{5cm}|p{2cm}|p{1.5cm}|}
+\hline
+\textbf{HĐ} & \textbf{Hình thức} & \textbf{Nội dung đánh giá} & \textbf{CĐR} & \textbf{Trọng số} \\
+\hline
+HĐ 9.1 & Chuyên cần & Đi học đúng giờ, thực hành tích cực & 5.2.1, 5.3.1 & 0.1 \\
+\hline
+HĐ 9.2 & Kiểm tra lý thuyết & Viết thủ tục, hàm, Trigger & 5.1.2 & 0.2 \\
+\hline
+HĐ 9.3 & Kiểm tra lý thuyết & Cấp phát quyền người dùng & 5.1.3 & 0.2 \\
+\hline
+HĐ 9.4 & Thực hành & Làm bài tập theo chủ đề & 5.1.1–5.1.3 & 0.5 \\
+\hline
+\end{longtable}
+
+\vspace{2em}
+\noindent Đồng Tháp, ngày \rule{2cm}{0.2pt} tháng \rule{2cm}{0.2pt} năm 2022
+
+\vspace{2em}
+\begin{tabbing}
+\hspace{6cm} \= \hspace{6cm} \= \kill
+Trưởng khoa \> Trưởng bộ môn \> Giảng viên
+\end{tabbing}
+
+\end{document}

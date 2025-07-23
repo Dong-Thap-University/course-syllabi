@@ -1,0 +1,77 @@
+PWD /Users/steven/repositories/course-syllabi/test
+INPUT /Users/steven/Library/Application Support/MiKTeX/texmfs/data/miktex/data/le/pdftex/pdflatex.fmt
+INPUT /Users/steven/repositories/course-syllabi/test/main.tex
+OUTPUT main.log
+INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/latex/base/article.cls
+INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/latex/base/article.cls
+INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/latex/base/size12.clo
+INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/latex/base/size12.clo
+INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/latex/base/size12.clo
+INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/cm/cmr12.tfm
+INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/latex/base/inputenc.sty
+INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/latex/base/inputenc.sty
+INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/generic/babel/babel.sty
+INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/generic/babel/babel.sty
+INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/generic/babel/txtbabel.def
+INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/latex/arabi/bblopts.cfg
+INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/latex/arabi/bblopts.cfg
+INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/latex/arabi/bblopts.cfg
+INPUT /Users/steven/Library/Application Support/MiKTeX/texmfs/install/tex/latex/babel-vietnamese/vietnamese.ldf
+INPUT /Users/steven/Library/Application Support/MiKTeX/texmfs/install/tex/latex/babel-vietnamese/vietnamese.ldf
+INPUT /Users/steven/Library/Application Support/MiKTeX/texmfs/install/tex/latex/babel-vietnamese/vietnamese.ldf
+INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/generic/babel/locale/vi/babel-vietnamese.tex
+INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/generic/babel/locale/vi/babel-vietnamese.tex
+INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/generic/babel/locale/vi/babel-vietnamese.tex
+INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/generic/babel/locale/vi/babel-vi.ini
+INPUT /Users/steven/Library/Application Support/MiKTeX/texmfs/install/tex/latex/vntex/t5enc.def
+INPUT /Users/steven/Library/Application Support/MiKTeX/texmfs/install/tex/latex/vntex/t5enc.def
+INPUT /Users/steven/Library/Application Support/MiKTeX/texmfs/install/tex/latex/vntex/t5enc.def
+INPUT /Users/steven/Library/Application Support/MiKTeX/texmfs/install/tex/latex/vntex/t5enc.dfu
+INPUT /Users/steven/Library/Application Support/MiKTeX/texmfs/install/tex/latex/vntex/t5enc.dfu
+INPUT /Users/steven/Library/Application Support/MiKTeX/texmfs/install/tex/latex/vntex/t5enc.dfu
+INPUT /Users/steven/Library/Application Support/MiKTeX/texmfs/install/tex/latex/geometry/geometry.sty
+INPUT /Users/steven/Library/Application Support/MiKTeX/texmfs/install/tex/latex/geometry/geometry.sty
+INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/latex/graphics/keyval.sty
+INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/latex/graphics/keyval.sty
+INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/generic/iftex/ifvtex.sty
+INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/generic/iftex/ifvtex.sty
+INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/generic/iftex/iftex.sty
+INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/generic/iftex/iftex.sty
+INPUT /Users/steven/Library/Application Support/MiKTeX/texmfs/install/tex/latex/geometry/geometry.cfg
+INPUT /Users/steven/Library/Application Support/MiKTeX/texmfs/install/tex/latex/geometry/geometry.cfg
+INPUT /Users/steven/Library/Application Support/MiKTeX/texmfs/install/tex/latex/geometry/geometry.cfg
+INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/latex/tools/longtable.sty
+INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/latex/tools/longtable.sty
+INPUT /Users/steven/Library/Application Support/MiKTeX/texmfs/install/tex/latex/enumitem/enumitem.sty
+INPUT /Users/steven/Library/Application Support/MiKTeX/texmfs/install/tex/latex/enumitem/enumitem.sty
+INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/latex/l3backend/l3backend-pdftex.def
+INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/latex/l3backend/l3backend-pdftex.def
+INPUT ./main.aux
+INPUT ./main.aux
+INPUT main.aux
+INPUT /Users/steven/Library/Application Support/MiKTeX/texmfs/install/tex/latex/vntex/t5cmr.fd
+INPUT /Users/steven/Library/Application Support/MiKTeX/texmfs/install/tex/latex/vntex/t5cmr.fd
+INPUT /Users/steven/Library/Application Support/MiKTeX/texmfs/install/tex/latex/vntex/t5cmr.fd
+INPUT /Users/steven/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/vntex/vnr/vnr12.tfm
+OUTPUT main.aux
+INPUT /Users/steven/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/vntex/vnr/vnr17.tfm
+INPUT /Users/steven/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/vntex/vnr/vnr12.tfm
+INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/cm/cmr12.tfm
+INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/cm/cmmi12.tfm
+INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/cm/cmsy10.tfm
+INPUT /Users/steven/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/vntex/vnr/vnr17.tfm
+INPUT /Users/steven/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/vntex/vnr/vnbx12.tfm
+INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/jknappen/ec/tcrm1200.tfm
+OUTPUT main.pdf
+INPUT /Users/steven/Library/Application Support/MiKTeX/texmfs/data/fonts/map/pdftex/pdftex.map
+INPUT /Users/steven/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/vntex/vnr/vnbx12.tfm
+INPUT /Users/steven/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/vntex/vnr/vnbx12.tfm
+INPUT main.aux
+INPUT /Users/steven/Library/Application Support/MiKTeX/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1200.pk
+INPUT /Users/steven/Library/Application Support/MiKTeX/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1200.pk
+INPUT /Users/steven/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/vntex/vnr/vnbx12.pfb
+INPUT /Users/steven/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/vntex/vnr/vnbx12.pfb
+INPUT /Users/steven/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/vntex/vnr/vnr12.pfb
+INPUT /Users/steven/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/vntex/vnr/vnr12.pfb
+INPUT /Users/steven/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/vntex/vnr/vnr17.pfb
+INPUT /Users/steven/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/vntex/vnr/vnr17.pfb
