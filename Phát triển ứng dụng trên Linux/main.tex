@@ -6,6 +6,16 @@
 \usepackage{enumitem}
 \usepackage{setspace}
 \usepackage{array}
+\usepackage{multirow}
+\usepackage{tabularx}
+\usepackage{ltablex}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\newcommand{\checkedbox}{{\small$\ooalign{$\square$\cr\hfil{\scriptsize$\checkmark$}\hfil\cr}$}}
+\newcommand{\uncheckedbox}{{\small$\square$}}
+\keepXColumns
+\usepackage{booktabs}
+\newcolumntype{Y}{>{\raggedright\arraybackslash}X}
 \linespread{1.5}
 \geometry{margin=2.5cm}
 \setlength{\parskip}{0.5em}
@@ -44,106 +54,256 @@
 \textbf{\fontsize{13pt}{13pt}\selectfont ĐỀ CƯƠNG CHI TIẾT HỌC PHẦN}
 \end{center}
 
-\section*{1. Thông tin về học phần}
+
+\subsection*{1. Thông tin chung về học phần}
+\begin{tabular}{|c|p{5cm}|p{9cm}|}
+\hline
+\textbf{STT} & \textbf{TÊN} & \textbf{NỘI DUNG} \\
+\hline
+1 & Tên học phần (tiếng Việt): & Phát triển ứng dụng trên Linux \\
+\hline
+2 & Tên học phần (tiếng Anh): & Application Development on Linux \\
+\hline
+3 & Mã học phần: & \\
+\hline
+4 & Số tín chỉ: & 2 \\
+\hline
+5 & Phân bổ thời gian: & \\
+\hline
+  & - Lý thuyết: & 20 \\
+\hline
+  & - Thực hành/Thí nghiệm: & 20 \\
+\hline
+  & - Tự học: & 60 \\
+\hline
+6 & Bộ môn quản lý: & Khoa Công nghệ và Kỹ thuật \\
+\hline
+7 & Điều kiện tham gia học phần: & \\
+\hline
+  & - Học phần tiên quyết: & \\
+\hline
+  & - Học phần học trước: & \\
+\hline
+  & - Học phần song hành: & \\
+\hline
+8 & Loại học phần: & \checkedbox{} Bắt buộc \quad \uncheckedbox{} Tự chọn \\
+\hline
+9 & Trình độ: & Đại học \\
+\hline
+10 & Thuộc khối kiến thức: & \\
+\hline
+\  & & \uncheckedbox{} Kiến thức giáo dục đại cương \\
+\hline
+\  & & \uncheckedbox{} Kiến thức cơ sở nhóm ngành \\
+\hline
+\  & & \uncheckedbox{} Kiến thức cơ sở ngành \\
+\hline
+\  & & \checkedbox{} Kiến thức chuyên ngành \\
+\hline
+\  & & \uncheckedbox{} Kiến thức NVSP (đối với ngành sư phạm) \\
+\hline
+\  & & \uncheckedbox{} Kiến thức bổ trợ (đối với ngành ngoài sư phạm) \\
+\hline
+\  & & \uncheckedbox{} Kiến thức thực tập nghề nghiệp (đối với ngành ngoài SP) \\
+\hline
+\  & & \uncheckedbox{} Khóa luận tốt nghiệp/Đồ án tốt nghiệp/Học phần thay thế \\
+\hline
+\end{tabular}
+
+\subsection*{2. Giảng viên phụ trách}
+\subsubsection*{2.1. Giảng viên 1}
 \begin{itemize}
-    \item Tên học phần: Hệ quản trị CSDL SQL Server
-    \item Mã lớp học phần: ...
-    \item Số tín chỉ: 2
-    \item Số tiết tín chỉ: 20/20/60
-    \item Học phần điều kiện: IN4107
+    \item Họ và tên: Lê Minh Thư
+    \item E-mail: 
+    \item Điện thoại: 
 \end{itemize}
 
-\section*{2. Thông tin về giảng viên}
+\subsubsection*{2.2. Giảng viên 2}
 \begin{itemize}
     \item Họ và tên: Nguyễn Tuấn Kiệt
-    \item Chức danh, học vị: Kỹ sư
-    \item Điện thoại: 0836980284
-    \item Email: nguyentuankiet@dthu.edu.vn
-    \item Đơn vị: Khoa Công nghệ và Kỹ thuật
+    \item E-mail: 
+    \item Điện thoại:
 \end{itemize}
 
-\section*{3. Tổng quan về học phần}
-Học phần hệ quản trị CSDL SQL Server được trình bày trong 5 chương, thời lượng chương trình là 40 tiết. Học xong học phần này, sinh viên hiểu khái niệm cơ bản của hệ quản trị CSDL SQL Server, các lệnh cơ bản của ngôn ngữ SQL. Cài đặt và cấu hình để thực thi SQL Server, tạo CSDL quan hệ để đưa dữ liệu vào lưu trữ, tạo và thực thi các View để xử lý dữ liệu trên nhiều bảng theo yêu cầu người dùng, tạo lập và thực thi các thủ tục bằng Stored Procedure. Tạo lập và in các báo cáo để kết xuất dữ liệu ở các bảng theo yêu cầu người dùng, tạo ra người dùng và phân quyền sử dụng cho người dùng đối với CSDL.
+\subsection*{3. Mô tả tóm tắt học phần}
+\hspace{1cm}Học phần "Phát triển ứng dụng trên Linux" cung cấp cho sinh viên nền tảng kiến thức cơ bản về hệ điều hành Linux và môi trường phát triển ứng dụng. Sinh viên được trang bị kiến thức về kiến trúc hệ điều hành, cách thức quản lý tệp tin, người dùng và quyền truy cập, cùng với các lệnh cơ bản để làm việc hiệu quả trên nền tảng Linux.
 
-\section*{4. Mục tiêu học phần}
+\hspace{1cm}Nội dung học phần tập trung vào lập trình hệ thống với các chủ đề quan trọng như xử lý tệp tin (file), quản lý tiến trình (process), xử lý tín hiệu (signal), lập trình đa luồng (thread), và các kỹ thuật giao tiếp liên tiến trình (IPC) bao gồm pipe, socket và shared memory. Sinh viên cũng được học cách sử dụng các công cụ phát triển chuyên nghiệp như GCC, GDB, Make, và CMake.
+
+\hspace{1cm}Cuối cùng, học phần chú trọng vào việc ứng dụng thực tế thông qua việc xây dựng các ứng dụng dòng lệnh và ứng dụng giao diện đồ họa đơn giản sử dụng GTK+. Sinh viên được rèn luyện kỹ năng làm việc nhóm, quản lý dự án và triển khai các sản phẩm phần mềm hoàn chỉnh trên môi trường Linux.
+
+\subsection*{4. Mục tiêu học phần}
 \begin{enumerate}[label=4.\arabic*.]
-    \item Vận dụng kiến thức đã học để thiết kế, tổ chức, quản lý dữ liệu trên hệ quản trị CSDL SQL Server trong việc xây dựng ứng dụng nền tảng Web, Windows Form.
-    \item Rèn luyện kỹ năng lập trình và ứng dụng thành thạo với các ngôn ngữ lập trình khác khi triển khai thực tế.
-    \item Nâng cao ý thức trách nhiệm bản thân trong quá trình tự học tự nghiên cứu và tham gia làm việc nhóm.
+    \item Trình bày được kiến trúc và đặc trưng của hệ điều hành Linux, cũng như các công cụ phát triển cơ bản.
+    \item Vận dụng thành thạo kỹ năng lập trình hệ thống trong Linux như xử lý tiến trình, tín hiệu, và giao tiếp liên tiến trình.
+    \item Xây dựng được ứng dụng thực tế trên nền tảng Linux bằng dòng lệnh hoặc giao diện đồ hoạ.
+    \item Phát triển kỹ năng tự học, tư duy hệ thống và làm việc nhóm thông qua thực hành và dự án.
 \end{enumerate}
 
-\section*{5. Chuẩn đầu ra học phần}
-\begin{longtable}{|p{2cm}|p{6.5cm}|p{2.5cm}|p{3cm}|}
+\subsection*{4.1. Kiến thức}
+\begin{enumerate}[label=4.1.\arabic*.]
+    \item Trình bày được kiến trúc hệ điều hành Linux, cơ chế quản lý người dùng, hệ thống tệp tin và phân quyền truy cập.
+    \item Mô tả và sử dụng được các công cụ phát triển phần mềm phổ biến trên Linux: Emacs, Gedit, GNU Make, Automake, Autoconf.
+    \item Trình bày nguyên lý và viết được chương trình shell script với các cấu trúc điều khiển cơ bản.
+    \item Hiểu và áp dụng được công cụ Qt Creator để xây dựng ứng dụng giao diện đồ họa, kết nối cơ sở dữ liệu MySQL/SQL Server, xử lý mạng và lập trình song song.
+\end{enumerate}
+
+\subsection*{4.2. Kỹ năng}
+\begin{enumerate}[label=4.2.\arabic*.]
+    \item Khai thác được hệ điều hành Linux để thao tác với tệp tin, người dùng, phân quyền và thực thi lệnh shell.
+    \item Cài đặt và sử dụng thành thạo các công cụ hỗ trợ phát triển phần mềm trên Linux (GCC, Gedit, Makefile, Autotools…).
+    \item Viết được shell script để xử lý dữ liệu và tự động hóa quy trình; triển khai ứng dụng kết nối cơ sở dữ liệu và lập trình song song trên Qt Creator.
+    \item Vận dụng tổng hợp kiến thức và công cụ để phát triển ứng dụng thực tế trên môi trường Linux.
+\end{enumerate}
+
+\subsection*{5. Chuẩn đầu ra của học phần (Course Learning Outcomes: CLOs)}
+\begin{longtable}{|>{\centering\arraybackslash}m{2cm}|>{\raggedright\arraybackslash}m{13cm}|}
 \hline
-\textbf{Mã} & \textbf{Mô tả chuẩn đầu ra} & \textbf{Ánh xạ với CĐR CTĐT} & \textbf{Đánh giá mức độ năng lực} \\
+\textbf{CĐR (CLOs)} & \multicolumn{1}{|>{\centering\arraybackslash}m{13cm}|}{\textbf{Nội dung CĐR học phần (CLOs)}} \\
 \hline
-\multicolumn{4}{|l|}{\textbf{5.1 Kiến thức}} \\
+\textbf{CLO1:} & Hiểu các nguyên lý của hệ điều hành Linux và đồng lực chuyển từ phân tích dữ liệu truyền thống sang phân tích dữ liệu quy mô lớn. \\
 \hline
-5.1.1 & Trình bày được các khái niệm chính trong một hệ quản trị cơ sở dữ liệu và mô hình kết nối truy xuất theo cơ chế khách chủ. & 1.5 & 5/6 \\
+\textbf{CLO2:} & Giải thích các yếu tố cơ bản trong quản lý dữ liệu quy mô lớn: khả năng mở rộng, xử lý song song trên hệ thống lưu trữ phân tán, và xử lý dữ liệu luồng. \\
 \hline
-5.1.2 & Hiểu ngôn ngữ định nghĩa dữ liệu và ngôn ngữ thao tác dữ liệu đồng thời vận dụng giao tác để triển khai các dự án phần mềm. & 1.5 & 5/6 \\
+\textbf{CLO3:} & Thao tác với Apache Hadoop, Apache Spark và MongoDB như các công cụ nhập môn cho phân tích dữ liệu quy mô lớn. \\
 \hline
-5.1.3 & Biết quản trị người dùng, tổ chức sao lưu, phục hồi cơ sở dữ liệu. & 1.5 & 5/6 \\
+\textbf{CLO4:} & Đạt được cái nhìn tổng quan về Big Data trong thực tiễn thông qua việc nghiên cứu và chia sẻ kinh nghiệm về các ứng dụng, công cụ và kỹ thuật. \\
 \hline
-\multicolumn{4}{|l|}{\textbf{5.2 Kỹ năng}} \\
+\textbf{CLO5:} & Tham gia một khóa học trực tuyến được chỉ định về một số chủ đề Big Data và hoàn thành hầu hết các nội dung học tập trong khóa học đó. \\
 \hline
-5.2.1 & Quản trị và phát triển các hệ thống đã có, khắc phục các sự cố và giải quyết các vấn đề phát sinh trong cập nhật dữ liệu và giao tác. & 2.2 & 4/5 \\
-\hline
-\multicolumn{4}{|l|}{\textbf{5.3 Phẩm chất đạo đức, mức tự chủ và trách nhiệm}} \\
-\hline
-5.3.1 & Thực hiện nghiêm túc nội quy lớp học và quy định của học phần. & 3.1 & 4/5 \\
-\hline
-5.3.2 & Rèn luyện tính kỷ cương, cẩn thận, độ chính xác khi xây dựng và quản trị một CSDL. & 3.2 & 4/5 \\
+\textbf{CLO6:} & Hiểu các nguyên lý của Big Data và đồng lực chuyển từ phân tích dữ liệu truyền thống sang phân tích dữ liệu quy mô lớn. \\
 \hline
 \end{longtable}
 
-\section*{6. Nội dung học phần và kế hoạch dạy học}
-\subsection*{6.1. Lý thuyết}
-\begin{longtable}{|p{4cm}|p{2cm}|p{2cm}|p{3cm}|p{3.5cm}|}
+\subsection*{6. Ma trận thể hiện sự đóng góp của các chuẩn đầu ra học phần (CLO) vào việc đạt được các chuẩn đầu ra của CTĐT (PLO) và các chỉ số PI (Performance Indicator)}
+
+\centerline{\textbf{Bảng 6.1. Mối liên hệ giữa CLO và PLO/PI}}
+
+\begin{center}
+\begin{longtable}{|>{\centering\arraybackslash}m{2cm}|>{\centering\arraybackslash}m{3cm}|>{\centering\arraybackslash}m{3cm}|>{\centering\arraybackslash}m{3cm}|>{\centering\arraybackslash}m{3cm}|}
 \hline
-\textbf{Chương/Chủ đề} & \textbf{Số tiết} & \textbf{CĐR} & \textbf{Phương pháp dạy - học} & \textbf{Hoạt động đánh giá} \\
+\multirow{3}{*}{\textbf{CLO}} & \multicolumn{4}{c|}{\textbf{PLO và chỉ số PI}} \\
+\cline{2-5}
+& \multicolumn{2}{c|}{\textbf{PLO4}} & \multicolumn{2}{c|}{\textbf{PLO5}} \\
+\cline{2-5}
+& \textbf{PI4.1} & \textbf{PI4.2} & \textbf{PI5.1} & \textbf{PI5.2} \\
 \hline
-Chương 1. Tổng quan: SQL Server, mô hình truy nhập, kiến trúc, đặc điểm, Management Studio & 2 & 5.1.1 & GV thuyết trình & \#HĐ9.4 \\
+\textbf{CLO1} & & & & \\
 \hline
-Chương 2. Quản trị SQL Server: DDL, DML, truy vấn, chỉ mục, DCL & 2 & 5.1.1 & GV thuyết trình & \#HĐ9.4 \\
+\textbf{CLO2} & & & & \\
 \hline
-Chương 3. Thủ tục, hàm, Trigger & 8 & 5.1.2 & GV thuyết trình & \#HĐ9.2, \#HĐ9.4 \\
+\textbf{CLO3} & & & & \\
 \hline
-Chương 4. Bảo mật dữ liệu: quyền, người dùng, kỹ thuật bảo mật & 4 & 5.1.3 & GV thuyết trình & \#HĐ9.3, \#HĐ9.4 \\
+\textbf{CLO4} & & & & \\
 \hline
-Chương 5. Giao tác \& Sao lưu phục hồi & 4 & 5.1.2, 5.1.3 & GV thuyết trình & \#HĐ9.4 \\
+\textbf{CLO5} & & & & \\
+\hline
+\textbf{CLO6} & & & & \\
+\hline
+\textbf{Học phần} & & & & \\
+\hline
+\end{longtable}
+\end{center}
+
+\subsection*{7. Nội dung học phần và kế hoạch dạy học}
+
+\subsubsection*{7.1. Lý thuyết}
+\begin{longtable}{|>{\raggedright\arraybackslash}p{6cm}|>{\centering\arraybackslash}p{1.5cm}|p{4.5cm}|>{\centering\arraybackslash}p{2.5cm}|>{\centering\arraybackslash}p{1.5cm}|}
+\hline
+\textbf{Chương/chủ đề} & \textbf{Số tiết} & \multicolumn{2}{c|}{\textbf{Hoạt động dạy và học}} & \textbf{CĐR học phần có liên quan} \\
+\cline{3-4}
+& & \textbf{Phương pháp dạy học} & \textbf{Sinh viên chuẩn bị} & \\
+\hline
+\endfirsthead
+\hline
+\textbf{Chương/chủ đề} & \textbf{Số tiết} & \multicolumn{2}{c|}{\textbf{Hoạt động dạy và học}} & \textbf{CĐR học phần có liên quan} \\
+\cline{3-4}
+& & \textbf{Phương pháp dạy học} & \textbf{Sinh viên chuẩn bị} & \\
+\hline
+\endhead
+CHƯƠNG 1. Tổng quan về hệ điều hành Linux
+1.1 Lịch sử phát triển Linux
+1.2 Kiến trúc hệ điều hành
+1.3 Phân biệt hệ điều hành và hạt nhân Linux
+1.4 Hệ thống tập tin, người dùng và quyền & 5 & GV thuyết trình, SV nghe giảng và trao đổi & Xem [1][2] & CLO1 \\
+\hline
+CHƯƠNG 2. Công cụ phát triển phần mềm trên Linux
+2.1 Emacs (Xemacs), Gedit
+2.2 Gcc/g++, GDB
+2.3 GNU Make, Automake, Autoconf & 5 & GV thuyết trình, SV nghe giảng và trao đổi & Xem [2] & CLO2 \\
+\hline
+CHƯƠNG 3. Lập trình hệ thống Linux
+3.1 Xử lý tệp tin (file I/O)
+3.2 Quản lý tiến trình (process)
+3.3 Xử lý tín hiệu (signal)
+3.4 Lập trình đa luồng (thread) & 5 & GV thuyết trình và minh họa & Xem [3] & CLO3 \\
+\hline
+CHƯƠNG 4. Giao tiếp liên tiến trình (IPC)
+4.1 Pipe và Named Pipe
+4.2 Shared Memory
+4.3 Socket Programming & 5 & GV thuyết trình và minh họa & Xem [4] & CLO4 \\
 \hline
 \end{longtable}
 
-\subsection*{6.2. Thực hành, thí nghiệm, thực tế}
-\begin{longtable}{|p{4cm}|p{1.5cm}|p{2cm}|p{3cm}|p{3.5cm}|}
+\subsubsection*{7.2. Thực hành}
+\begin{longtable}{|>{\centering\arraybackslash}p{3cm}|>{\centering\arraybackslash}p{1.5cm}|p{6cm}|>{\centering\arraybackslash}p{3cm}|>{\centering\arraybackslash}p{2cm}|}
 \hline
-\textbf{Chương/Chủ đề} & \textbf{Số tiết} & \textbf{Chuẩn đầu ra} & \textbf{Phương pháp dạy - học} & \textbf{Chuẩn bị của sinh viên} \\
+\textbf{Chương/chủ đề} & \textbf{Số tiết} & \multicolumn{2}{c|}{\textbf{Hoạt động dạy và học}} & \textbf{Hình thức đánh giá} \\
+\cline{3-4}
+& & \textbf{Phương pháp dạy học} & \textbf{Sinh viên chuẩn bị} & \\
 \hline
-Chương 2: Quản trị CSDL SQL Server \newline - Tạo bảng dữ liệu \newline - Sửa đổi định nghĩa bảng \newline - Xóa bảng \newline - Khung nhìn \newline - Truy vấn dữ liệu \newline - Chèn, Cập nhật, Xóa dữ liệu & 4 & 5.1.2 & SV thực hành theo yêu cầu & Xem [1][2] \\
+\endfirsthead
 \hline
-Chương 3. Thủ tục, hàm, và trình kích khởi \newline - Thủ tục lưu trữ (stored procedure) \newline - Hàm do người dùng định nghĩa \newline - Trigger & 8 & 5.1.2 & SV thực hành theo yêu cầu & Xem [1][3] \\
+\textbf{Chương/chủ đề} & \textbf{Số tiết} & \multicolumn{2}{c|}{\textbf{Hoạt động dạy và học}} & \textbf{Hình thức đánh giá} \\
+\cline{3-4}
+& & \textbf{Phương pháp dạy học} & \textbf{Sinh viên chuẩn bị} & \\
 \hline
-Chương 4: Bảo mật trong SQL \newline - Các khái niệm \newline - Cấp phát quyền \newline - Thu hồi quyền & 4 & 5.1.3 & SV thực hành theo yêu cầu & Xem [1][4] \\
+\endhead
+Bài 1. Thực hành Linux cơ bản
+- Các lệnh cơ bản
+- Lập trình Shell
+- Cấu trúc điều khiển Shell & 5 & Thực hành cá nhân & Ôn tập lệnh cơ bản, chuẩn bị môi trường Linux & Bài tập thực hành \\
 \hline
-Chương 5. Giao tác \newline - Giao tác và các tính chất của giao tác \newline - Mô hình giao tác trong SQL \newline - Giao tác lồng nhau & 4 & 5.1.2 & SV thực hành theo yêu cầu & Xem [1][3] \\
+Bài 2. Công cụ phát triển phần mềm trên Linux
+- Emacs, Gedit, Qt Creator
+- Gcc/G++
+- GNU Make, automake, autoconf & 5 & Thực hành nhóm & Đọc hướng dẫn sử dụng Emacs, Gedit, Qt Creator & Báo cáo nhóm \\
+\hline
+Bài 3. Lập trình căn bản với Qt Creator
+- Viết và thực thi chương trình
+- Cấu trúc điều khiển & 5 & Thực hành cá nhân/nhóm & Cài đặt Qt Creator, chuẩn bị mã nguồn mẫu & Bài tập thực hành \\
+\hline
+Bài 4. Kết nối cơ sở dữ liệu MySQL với Qt Creator & 5 & Thực hành nhóm, trình bày & Tài liệu hướng dẫn MySQL, Qt Creator & Báo cáo nhóm \\
 \hline
 \end{longtable}
 
-\section*{7. Tài liệu học tập}
-\begin{longtable}{|p{0.5cm}|p{3cm}|p{4cm}|p{2cm}|p{3cm}|p{3cm}|p{1.5cm}|p{1.5cm}|}
+\subsection*{8. Tài liệu học tập}
+\begin{longtable}{|>{\centering\arraybackslash}p{0.8cm}|p{3cm}|p{4cm}|>{\centering\arraybackslash}p{1.2cm}|p{2.5cm}|p{3cm}|>{\centering\arraybackslash}p{1.2cm}|>{\centering\arraybackslash}p{1.2cm}|}
 \hline
 \textbf{TT} & \textbf{Tên tác giả} & \textbf{Tên tài liệu} & \textbf{Năm XB} & \textbf{Nhà xuất bản} & \textbf{Địa chỉ khai thác} & \textbf{Tài liệu chính} & \textbf{Tham khảo} \\
 \hline
-1 & Đặng Quốc Bảo & Cơ sở dữ liệu & 2020 & NXB ĐHCT & Thư viện Lê Vũ Hùng & x & \\
+\endfirsthead
 \hline
-2 & Dương Tuấn Anh & Hệ cơ sở dữ liệu & 2006 & NXB ĐHQG TP.HCM & & & x \\
+\textbf{TT} & \textbf{Tên tác giả} & \textbf{Tên tài liệu} & \textbf{Năm XB} & \textbf{Nhà xuất bản} & \textbf{Địa chỉ khai thác} & \textbf{Tài liệu chính} & \textbf{Tham khảo} \\
 \hline
-3 & Đỗ Trung Tuấn & Cơ sở dữ liệu & 1997 & NXB ĐHQG TP.HCM & & & \\
+\endhead
+1 & Nguyễn Đặng Trí Tín, Nguyễn Phúc Trường Sinh & Hệ điều hành Linux & 2000 & Thống Kê & Thư viện ĐH hoặc online & x & \\
+\hline
+2 & VN-Guide & Linux toàn tập & 2000 & Thống Kê & Thư viện ĐH hoặc online & x & \\
+\hline
+3 & Nguyễn Minh Hoàng & Giáo trình lý thuyết và thực hành Linux & – & – & Thư viện khoa CNTT & x & \\
+\hline
+4 & Nguyễn Thanh Thủy, Lê Quân, Ngô Hồng Sơn, Trương Diệu Linh & Quản trị hệ thống Linux & – & – & Thư viện ĐH hoặc online & x & \\
+\hline
+5 & Alan Ezust, Paul Ezust & An Introduction to Design Patterns in C++ with Qt4 & 2006 & Prentice Hall & Online & & x \\
+\hline
+6 & Đỗ Thanh Nghị, Nguyễn Văn Hòa, Đỗ Hiệp Thuận & Lập trình song song & 2014 & Đại học Cần Thơ & Thư viện ĐH hoặc online & & x \\
+\hline
+7 & Ngô Bá Hùng, Nguyễn Công Huy & Giáo trình lập trình truyền thông & 2008 & Giao thông vận tải & Thư viện ĐH hoặc online & & x \\
 \hline
 \end{longtable}
 
-\section*{8. Quy định đối với sinh viên}
+\subsection*{9. Quy định đối với sinh viên}
 \begin{itemize}
     \item Tuân thủ nghiêm túc các nội quy và quy định của Khoa và Trường khi vào lớp học.
     \item Không được vắng quá 20\% số tiết học.
@@ -151,18 +311,25 @@ Chương 5. Giao tác \newline - Giao tác và các tính chất của giao tác
     \item Tài khoản trực tuyến phải định danh bằng MSSV, họ tên và ảnh thật.
 \end{itemize}
 
-\section*{9. Đánh giá kết quả học tập}
-\begin{longtable}{|p{2cm}|p{3cm}|p{5cm}|p{2cm}|p{1.5cm}|}
+\subsection*{10. Phương pháp – hình thức đánh giá kết quả học tập}
+\begin{longtable}{|>{\centering\arraybackslash}p{1cm}|p{3cm}|p{5.5cm}|>{\centering\arraybackslash}p{2cm}|>{\centering\arraybackslash}p{2cm}|}
 \hline
-\textbf{HĐ} & \textbf{Hình thức} & \textbf{Nội dung đánh giá} & \textbf{CĐR} & \textbf{Trọng số} \\
+\textbf{STT} & \textbf{Hình thức đánh giá} & \textbf{Nội dung} & \textbf{CĐR liên kết} & \textbf{Trọng số} \\
 \hline
-HĐ 9.1 & Chuyên cần & Đi học đúng giờ, thực hành tích cực & 5.2.1, 5.3.1 & 0.1 \\
+\endfirsthead
 \hline
-HĐ 9.2 & Kiểm tra lý thuyết & Viết thủ tục, hàm, Trigger & 5.1.2 & 0.2 \\
+\textbf{STT} & \textbf{Hình thức đánh giá} & \textbf{Nội dung} & \textbf{CĐR liên kết} & \textbf{Trọng số} \\
 \hline
-HĐ 9.3 & Kiểm tra lý thuyết & Cấp phát quyền người dùng & 5.1.3 & 0.2 \\
+\endhead
+1 & Chuyên cần & Đi học đúng giờ, thực hành tích cực & 5.3.1, 5.3.2 & 0.1 \\
 \hline
-HĐ 9.4 & Thực hành & Làm bài tập theo chủ đề & 5.1.1–5.1.3 & 0.5 \\
+2 & Trắc nghiệm giữa kỳ & Câu hỏi lý thuyết chương 1, 2 & 5.1.1, 5.1.2 & 0.2 \\
+\hline
+3 & Bài tập thực hành & File, signal, process, IPC & 5.2.1, 5.1.3 & 0.2 \\
+\hline
+4 & Coding Test & Lập trình hệ thống và debug & 5.1.2, 5.2.1 & 0.2 \\
+\hline
+5 & Dự án cuối kỳ & Project CLI/GUI, teamwork & 5.2.2, 5.3.2 & 0.3 \\
 \hline
 \end{longtable}
 
