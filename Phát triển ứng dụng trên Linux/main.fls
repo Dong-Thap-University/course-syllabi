@@ -76,11 +76,11 @@ INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/latex/l3backend/l3b
 INPUT ./main.aux
 INPUT ./main.aux
 INPUT main.aux
+OUTPUT main.aux
 INPUT /Users/steven/Library/Application Support/MiKTeX/texmfs/install/tex/latex/vntex/t5cmr.fd
 INPUT /Users/steven/Library/Application Support/MiKTeX/texmfs/install/tex/latex/vntex/t5cmr.fd
 INPUT /Users/steven/Library/Application Support/MiKTeX/texmfs/install/tex/latex/vntex/t5cmr.fd
 INPUT /Users/steven/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/vntex/vnr/vnr10.tfm
-OUTPUT main.aux
 INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
 INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
 INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsfonts/umsa.fd

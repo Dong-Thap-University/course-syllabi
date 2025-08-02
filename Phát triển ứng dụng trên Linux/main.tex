@@ -1,4 +1,5 @@
 \documentclass[a4paper,13pt]{article}
+
 \usepackage[utf8]{inputenc}
 \usepackage[vietnamese]{babel}
 \usepackage{geometry}
@@ -214,92 +215,89 @@
 \cline{3-4}
 & & \textbf{Phương pháp dạy học} & \textbf{Sinh viên chuẩn bị} & \\
 \hline
-\endfirsthead
+\textbf{CHƯƠNG 1. Linux và Công nghệ Container}\newline
+1.1 Tổng quan về Linux\newline
+1.2 Các lệnh và quản lý hệ thống Linux cơ bản\newline
+1.3 Tổng quan về công nghệ Container\newline
+1.4 Docker và Podman cơ bản\newline
+1.5 Quản lý container và image & 5 & GV thuyết trình, minh họa; SV trao đổi & Xem tài liệu Docker & CLO1 \\
 \hline
-\textbf{Chương/chủ đề} & \textbf{Số tiết} & \multicolumn{2}{c|}{\textbf{Hoạt động dạy và học}} & \textbf{CĐR học phần có liên quan} \\
-\cline{3-4}
-& & \textbf{Phương pháp dạy học} & \textbf{Sinh viên chuẩn bị} & \\
+\textbf{CHƯƠNG 2. Công cụ phát triển hiện đại}\newline
+2.1 Giới thiệu VS Code\newline
+2.2 Quản lý mã nguồn với Git\newline
+2.3 Phát triển ứng dụng với Docker\newline
+2.4 Tự động hóa phát triển với GitHub Actions & 5 & GV thuyết trình, minh họa; SV thực hành & Xem GitHub Actions Documentation & CLO2 \\
 \hline
-\endhead
-CHƯƠNG 1. Tổng quan về hệ điều hành Linux
-1.1 Lịch sử phát triển Linux
-1.2 Kiến trúc hệ điều hành
-1.3 Phân biệt hệ điều hành và hạt nhân Linux
-1.4 Hệ thống tập tin, người dùng và quyền & 5 & GV thuyết trình, SV nghe giảng và trao đổi & Xem [1][2] & CLO1 \\
+\textbf{CHƯƠNG 3. Lập trình hệ thống và phát triển container}\newline
+3.1 Các khái niệm cơ bản về lập trình hệ thống\newline
+3.2 Lập trình quản lý tiến trình và file\newline
+3.3 Kết nối mạng và IPC\newline
+3.4 Phát triển ứng dụng container hóa\newline
+3.5 Docker Compose cơ bản & 5 & GV thuyết trình, thực hành mẫu & Xem Docker Compose Documentation & CLO3 \\
 \hline
-CHƯƠNG 2. Công cụ phát triển phần mềm trên Linux
-2.1 Emacs (Xemacs), Gedit
-2.2 Gcc/g++, GDB
-2.3 GNU Make, Automake, Autoconf & 5 & GV thuyết trình, SV nghe giảng và trao đổi & Xem [2] & CLO2 \\
-\hline
-CHƯƠNG 3. Lập trình hệ thống Linux
-3.1 Xử lý tệp tin (file I/O)
-3.2 Quản lý tiến trình (process)
-3.3 Xử lý tín hiệu (signal)
-3.4 Lập trình đa luồng (thread) & 5 & GV thuyết trình và minh họa & Xem [3] & CLO3 \\
-\hline
-CHƯƠNG 4. Giao tiếp liên tiến trình (IPC)
-4.1 Pipe và Named Pipe
-4.2 Shared Memory
-4.3 Socket Programming & 5 & GV thuyết trình và minh họa & Xem [4] & CLO4 \\
+\textbf{CHƯƠNG 4. Microservices và Kubernetes}\newline
+4.1 Kiến trúc Microservices\newline
+4.2 Thiết kế và xây dựng REST APIs\newline
+4.3 Kubernetes cơ bản\newline
+4.4 Triển khai ứng dụng với Kubernetes\newline
+4.5 CI/CD với Kubernetes và GitHub Actions\newline
+4.6 Giám sát và quản lý với Prometheus & 5 & GV hướng dẫn, SV thực hành nhóm & Xem Kubernetes Documentation & CLO4 \\
 \hline
 \end{longtable}
 
 \subsubsection*{7.2. Thực hành}
-\begin{longtable}{|>{\centering\arraybackslash}p{3cm}|>{\centering\arraybackslash}p{1.5cm}|p{6cm}|>{\centering\arraybackslash}p{3cm}|>{\centering\arraybackslash}p{2cm}|}
+\begin{longtable}{|>{\raggedright\arraybackslash}p{0.38\textwidth}|>{\centering\arraybackslash}p{0.07\textwidth}|>{\raggedright\arraybackslash}p{0.22\textwidth}|>{\raggedright\arraybackslash}p{0.15\textwidth}|>{\centering\arraybackslash}p{0.11\textwidth}|}
 \hline
-\textbf{Chương/chủ đề} & \textbf{Số tiết} & \multicolumn{2}{c|}{\textbf{Hoạt động dạy và học}} & \textbf{Hình thức đánh giá} \\
+\multicolumn{1}{|>{\centering\arraybackslash}p{0.38\textwidth}|}{\textbf{Chương/chủ đề}} & \multicolumn{1}{|>{\centering\arraybackslash}p{0.07\textwidth}|}{\textbf{Số tiết}} & \multicolumn{2}{c|}{\textbf{Hoạt động dạy và học}} & \multicolumn{1}{|>{\centering\arraybackslash}p{0.11\textwidth}|}{\textbf{Hình thức đánh giá}} \\
 \cline{3-4}
-& & \textbf{Phương pháp dạy học} & \textbf{Sinh viên chuẩn bị} & \\
+\multicolumn{1}{|>{\centering\arraybackslash}p{0.38\textwidth}|}{} & \multicolumn{1}{|>{\centering\arraybackslash}p{0.07\textwidth}|}{} & \multicolumn{1}{|>{\centering\arraybackslash}p{0.22\textwidth}|}{\textbf{Phương pháp dạy học}} & \multicolumn{1}{|>{\centering\arraybackslash}p{0.15\textwidth}|}{\textbf{Sinh viên chuẩn bị}} & \multicolumn{1}{|>{\centering\arraybackslash}p{0.11\textwidth}|}{} \\
 \hline
 \endfirsthead
 \hline
-\textbf{Chương/chủ đề} & \textbf{Số tiết} & \multicolumn{2}{c|}{\textbf{Hoạt động dạy và học}} & \textbf{Hình thức đánh giá} \\
+\multicolumn{1}{|>{\centering\arraybackslash}p{0.38\textwidth}|}{\textbf{Chương/chủ đề}} & \multicolumn{1}{|>{\centering\arraybackslash}p{0.07\textwidth}|}{\textbf{Số tiết}} & \multicolumn{2}{c|}{\textbf{Hoạt động dạy và học}} & \multicolumn{1}{|>{\centering\arraybackslash}p{0.11\textwidth}|}{\textbf{Hình thức đánh giá}} \\
 \cline{3-4}
-& & \textbf{Phương pháp dạy học} & \textbf{Sinh viên chuẩn bị} & \\
+\multicolumn{1}{|>{\centering\arraybackslash}p{0.38\textwidth}|}{} & \multicolumn{1}{|>{\centering\arraybackslash}p{0.07\textwidth}|}{} & \multicolumn{1}{|>{\centering\arraybackslash}p{0.22\textwidth}|}{\textbf{Phương pháp dạy học}} & \multicolumn{1}{|>{\centering\arraybackslash}p{0.15\textwidth}|}{\textbf{Sinh viên chuẩn bị}} & \multicolumn{1}{|>{\centering\arraybackslash}p{0.11\textwidth}|}{} \\
 \hline
 \endhead
-Bài 1. Thực hành Linux cơ bản
-- Các lệnh cơ bản
-- Lập trình Shell
-- Cấu trúc điều khiển Shell & 5 & Thực hành cá nhân & Ôn tập lệnh cơ bản, chuẩn bị môi trường Linux & Bài tập thực hành \\
+\textbf{CHƯƠNG 1:} \newline Cài đặt Ubuntu/CentOS trên máy ảo hoặc WSL \newline Thực hành các lệnh Linux cơ bản (ls, cd, mkdir, chmod, grep, find) \newline Cài đặt và cấu hình Docker/Podman \newline Tạo và quản lý container đầu tiên \newline Làm việc với Docker images và volumes & 5 & Thực hành cá nhân & Chuẩn bị máy ảo hoặc WSL, tài khoản Docker Hub & Bài tập thực hành \\
 \hline
-Bài 2. Công cụ phát triển phần mềm trên Linux
-- Emacs, Gedit, Qt Creator
-- Gcc/G++
-- GNU Make, automake, autoconf & 5 & Thực hành nhóm & Đọc hướng dẫn sử dụng Emacs, Gedit, Qt Creator & Báo cáo nhóm \\
+\textbf{CHƯƠNG 2:} \newline Cài đặt và cấu hình VS Code với các extension Linux \newline Thực hành Git: clone, commit, push, pull, branch, merge \newline Tạo Dockerfile và build image \newline Thiết lập GitHub repository và Actions \newline Tạo CI/CD pipeline đơn giản với GitHub Actions & 5 & Thực hành nhóm & Tạo tài khoản GitHub, đọc Git documentation & Báo cáo nhóm \\
 \hline
-Bài 3. Lập trình căn bản với Qt Creator
-- Viết và thực thi chương trình
-- Cấu trúc điều khiển & 5 & Thực hành cá nhân/nhóm & Cài đặt Qt Creator, chuẩn bị mã nguồn mẫu & Bài tập thực hành \\
+\textbf{CHƯƠNG 3:} \newline Lập trình xử lý file và process trong C/Python \newline Thực hành IPC: pipe, socket, shared memory \newline Viết shell script tự động hóa tác vụ \newline Tạo multi-container application với Docker Compose \newline Kết nối database (MySQL/PostgreSQL) trong container & 5 & Thực hành cá nhân/nhóm & Chuẩn bị mã nguồn C/Python, học Docker Compose & Bài tập thực hành \\
 \hline
-Bài 4. Kết nối cơ sở dữ liệu MySQL với Qt Creator & 5 & Thực hành nhóm, trình bày & Tài liệu hướng dẫn MySQL, Qt Creator & Báo cáo nhóm \\
+\textbf{CHƯƠNG 4:} \newline Cài đặt và cấu hình Kubernetes cluster (minikube/kind) \newline Tạo Deployment, Service, ConfigMap, Secret \newline Triển khai ứng dụng web với database trên K8s \newline Thiết lập monitoring với Prometheus và Grafana \newline Tạo complete CI/CD pipeline từ code đến production & 5 & Thực hành nhóm, trình bày & Đọc Kubernetes documentation, chuẩn bị demo & Báo cáo nhóm \\
 \hline
 \end{longtable}
 
 \subsection*{8. Tài liệu học tập}
-\begin{longtable}{|>{\centering\arraybackslash}p{0.8cm}|p{3cm}|p{4cm}|>{\centering\arraybackslash}p{1.2cm}|p{2.5cm}|p{3cm}|>{\centering\arraybackslash}p{1.2cm}|>{\centering\arraybackslash}p{1.2cm}|}
+\begin{longtable}{|>{\centering\arraybackslash}p{0.8cm}|>{\centering\arraybackslash}p{2.5cm}|>{\raggedright\arraybackslash}p{3.5cm}|>{\centering\arraybackslash}p{1.2cm}|>{\centering\arraybackslash}p{2cm}|>{\centering\arraybackslash}p{1.5cm}|>{\centering\arraybackslash}p{2.5cm}|}
 \hline
-\textbf{TT} & \textbf{Tên tác giả} & \textbf{Tên tài liệu} & \textbf{Năm XB} & \textbf{Nhà xuất bản} & \textbf{Địa chỉ khai thác} & \textbf{Tài liệu chính} & \textbf{Tham khảo} \\
+\multirow{2}{*}{\textbf{TT}} & \multirow{2}{*}{\textbf{Tên tác giả}} & \multirow{2}{*}{\textbf{Tên tài liệu}} & \multirow{2}{*}{\textbf{Năm xuất bản}} & \multirow{2}{*}{\textbf{Nhà xuất bản}} & \multirow{2}{*}{\textbf{Địa chỉ khai thác tài liệu}} & \textbf{Mục đích sử dụng} \\
+\cline{7-7}
+& & & & & & \textbf{Tài liệu chính} \quad \textbf{Tham khảo} \\
 \hline
 \endfirsthead
 \hline
-\textbf{TT} & \textbf{Tên tác giả} & \textbf{Tên tài liệu} & \textbf{Năm XB} & \textbf{Nhà xuất bản} & \textbf{Địa chỉ khai thác} & \textbf{Tài liệu chính} & \textbf{Tham khảo} \\
+\multirow{2}{*}{\textbf{TT}} & \multirow{2}{*}{\textbf{Tên tác giả}} & \multirow{2}{*}{\textbf{Tên tài liệu}} & \multirow{2}{*}{\textbf{Năm xuất bản}} & \multirow{2}{*}{\textbf{Nhà xuất bản}} & \multirow{2}{*}{\textbf{Địa chỉ khai thác tài liệu}} & \textbf{Mục đích sử dụng} \\
+\cline{7-7}
+& & & & & & \textbf{Tài liệu chính} \quad \textbf{Tham khảo} \\
 \hline
 \endhead
-1 & Nguyễn Đặng Trí Tín, Nguyễn Phúc Trường Sinh & Hệ điều hành Linux & 2000 & Thống Kê & Thư viện ĐH hoặc online & x & \\
+1 & Nigel Poulton & Docker Deep Dive & 2023 & Independently published & Thư viện & x \\
 \hline
-2 & VN-Guide & Linux toàn tập & 2000 & Thống Kê & Thư viện ĐH hoặc online & x & \\
+2 & Brendan Burns, Joe Beda & Kubernetes: Up and Running & 2022 & O'Reilly Media & Thư viện & x \\
 \hline
-3 & Nguyễn Minh Hoàng & Giáo trình lý thuyết và thực hành Linux & – & – & Thư viện khoa CNTT & x & \\
+3 & Docker Inc. & Docker Documentation & 2024 & Docker Inc. & https://docs.docker.com & x \\
 \hline
-4 & Nguyễn Thanh Thủy, Lê Quân, Ngô Hồng Sơn, Trương Diệu Linh & Quản trị hệ thống Linux & – & – & Thư viện ĐH hoặc online & x & \\
+4 & CNCF & Kubernetes Documentation & 2024 & CNCF & https://kubernetes.io/docs & x \\
 \hline
-5 & Alan Ezust, Paul Ezust & An Introduction to Design Patterns in C++ with Qt4 & 2006 & Prentice Hall & Online & & x \\
+5 & GitHub & GitHub Actions Documentation & 2024 & GitHub Inc. & https://docs.github.com/actions & x \\
 \hline
-6 & Đỗ Thanh Nghị, Nguyễn Văn Hòa, Đỗ Hiệp Thuận & Lập trình song song & 2014 & Đại học Cần Thơ & Thư viện ĐH hoặc online & & x \\
+6 & Prometheus & Prometheus Documentation & 2024 & Prometheus & https://prometheus.io/docs & & x \\
 \hline
-7 & Ngô Bá Hùng, Nguyễn Công Huy & Giáo trình lập trình truyền thông & 2008 & Giao thông vận tải & Thư viện ĐH hoặc online & & x \\
+7 & Michael Hausenblas & Learning Modern Linux & 2022 & O'Reilly Media & Thư viện & & x \\
+\hline
+8 & William Shotts & The Linux Command Line & 2019 & No Starch Press & Thư viện & & x \\
 \hline
 \end{longtable}
 
