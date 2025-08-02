@@ -1,9 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2025.7.23)  28 JUL 2025 00:10
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2025.7.23)  2 AUG 2025 09:45
 entering extended mode
  restricted \write18 enabled.
+ file:line:error style messages enabled.
  %&-line parsing enabled.
-**./main.tex
-(main.tex
+**"/Users/steven/repositories/course-syllabi/Phﾃ｡t tri盻ハ 盻ｩng d盻･ng trﾃｪn Linux/main.tex"
+(/Users/steven/repositories/course-syllabi/Phﾃ｡t tri盻ハ 盻ｩng d盻･ng trﾃｪn Linux/main.tex
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-07-11>
 (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/base/article.cls
@@ -22,52 +23,34 @@ File: size10.clo 2025/01/22 v1.4n Standard LaTeX file (size option)
 \abovecaptionskip=\skip49
 \belowcaptionskip=\skip50
 \bibindent=\dimen148
-)
-(/Library/Application Support/MiKTeX/texmfs/install/tex/latex/base/inputenc.sty
+) (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/base/inputenc.sty
 Package: inputenc 2024/02/08 v1.3d Input encoding file
 \inpenc@prehook=\toks17
 \inpenc@posthook=\toks18
-)
-(/Library/Application Support/MiKTeX/texmfs/install/tex/generic/babel/babel.sty
-Package: babel 2025/05/14 v25.9 The multilingual framework for pdfLaTeX, LuaLaT
-eX and XeLaTeX
+) (/Library/Application Support/MiKTeX/texmfs/install/tex/generic/babel/babel.sty
+Package: babel 2025/05/14 v25.9 The multilingual framework for pdfLaTeX, LuaLaTeX and XeLaTeX
 \babel@savecnt=\count283
-LaTeX Encoding Info:    Redeclaring text command \ij (encoding OT1) on input li
-ne 2043.
-LaTeX Encoding Info:    Redeclaring text command \IJ (encoding OT1) on input li
-ne 2045.
-LaTeX Encoding Info:    Redeclaring text command \ij (encoding T1) on input lin
-e 2047.
-LaTeX Encoding Info:    Redeclaring text command \IJ (encoding T1) on input lin
-e 2048.
-LaTeX Encoding Info:    Ignoring declaration for text command \ij (encoding ?) 
-on input line 2049.
-LaTeX Encoding Info:    Ignoring declaration for text command \IJ (encoding ?) 
-on input line 2051.
-LaTeX Encoding Info:    Ignoring declaration for text command \SS (encoding ?) 
-on input line 2076.
+LaTeX Encoding Info:    Redeclaring text command \ij (encoding OT1) on input line 2043.
+LaTeX Encoding Info:    Redeclaring text command \IJ (encoding OT1) on input line 2045.
+LaTeX Encoding Info:    Redeclaring text command \ij (encoding T1) on input line 2047.
+LaTeX Encoding Info:    Redeclaring text command \IJ (encoding T1) on input line 2048.
+LaTeX Encoding Info:    Ignoring declaration for text command \ij (encoding ?) on input line 2049.
+LaTeX Encoding Info:    Ignoring declaration for text command \IJ (encoding ?) on input line 2051.
+LaTeX Encoding Info:    Ignoring declaration for text command \SS (encoding ?) on input line 2076.
 \U@D=\dimen149
 \l@unhyphenated=\language1
-
-(/Library/Application Support/MiKTeX/texmfs/install/tex/generic/babel/txtbabel.
-def)
+ (/Library/Application Support/MiKTeX/texmfs/install/tex/generic/babel/txtbabel.def)
 \bbl@readstream=\read2
 \bbl@dirlevel=\count284
 
 *************************************
 * Local config file bblopts.cfg used
 *
-
 (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/arabi/bblopts.cfg
-File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
- babel
-)
-(/Users/steven/Library/Application Support/MiKTeX/texmfs/install/tex/latex/babe
-l-vietnamese/vietnamese.ldf
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of babel
+) (/Users/steven/Library/Application Support/MiKTeX/texmfs/install/tex/latex/babel-vietnamese/vietnamese.ldf
 Language: vietnamese 
-
-(/Library/Application Support/MiKTeX/texmfs/install/tex/generic/babel/locale/vi
-/babel-vietnamese.tex
+ (/Library/Application Support/MiKTeX/texmfs/install/tex/generic/babel/locale/vi/babel-vietnamese.tex
 Package babel Info: Importing font and identification data for vietnamese
 (babel)             from babel-vi.ini. Reported on input line 11.
 )
@@ -78,15 +61,11 @@ Package babel Warning: No hyphenation patterns were preloaded for
 (babel)                rebuild the format. Now I will use the patterns
 (babel)                preloaded for \language=0 instead on input line 36.
 
-Loading definitions for the Vietnamese font encoding
-(/Users/steven/Library/Application Support/MiKTeX/texmfs/install/tex/latex/vnte
-x/t5enc.def
+Loading definitions for the Vietnamese font encoding (/Users/steven/Library/Application Support/MiKTeX/texmfs/install/tex/latex/vntex/t5enc.def
 File: t5enc.def 2006/11/21 v1.4 Vietnamese T5 encoding
 Now handling font encoding T5 ...
 ... processing UTF-8 mapping file for font encoding T5
-
-(/Users/steven/Library/Application Support/MiKTeX/texmfs/install/tex/latex/vnte
-x/t5enc.dfu
+ (/Users/steven/Library/Application Support/MiKTeX/texmfs/install/tex/latex/vntex/t5enc.dfu
 File: t5enc.dfu 2006/08/19 v1.1 UTF8 support for Vietnamese
    defining Unicode char U+00AB (decimal 171)
    defining Unicode char U+00BB (decimal 187)
@@ -241,21 +220,14 @@ File: t5enc.dfu 2006/08/19 v1.1 UTF8 support for Vietnamese
    defining Unicode char U+2423 (decimal 9251)
 ))
 Package babel Info: Making " an active character on input line 147.
-))
-(/Users/steven/Library/Application Support/MiKTeX/texmfs/install/tex/latex/geom
-etry/geometry.sty
+)) (/Users/steven/Library/Application Support/MiKTeX/texmfs/install/tex/latex/geometry/geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
-
-(/Library/Application Support/MiKTeX/texmfs/install/tex/latex/graphics/keyval.s
-ty
+ (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/graphics/keyval.sty
 Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
 \KV@toks@=\toks19
-)
-(/Library/Application Support/MiKTeX/texmfs/install/tex/generic/iftex/ifvtex.st
-y
+) (/Library/Application Support/MiKTeX/texmfs/install/tex/generic/iftex/ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
-
-(/Library/Application Support/MiKTeX/texmfs/install/tex/generic/iftex/iftex.sty
+ (/Library/Application Support/MiKTeX/texmfs/install/tex/generic/iftex/iftex.sty
 Package: iftex 2024/12/12 v1.0g TeX engine tests
 ))
 \Gm@cnth=\count285
@@ -270,11 +242,7 @@ Package: iftex 2024/12/12 v1.0g TeX engine tests
 \Gm@layouthoffset=\dimen156
 \Gm@layoutvoffset=\dimen157
 \Gm@dimlist=\toks20
-
-(/Users/steven/Library/Application Support/MiKTeX/texmfs/install/tex/latex/geom
-etry/geometry.cfg))
-(/Library/Application Support/MiKTeX/texmfs/install/tex/latex/tools/longtable.s
-ty
+ (/Users/steven/Library/Application Support/MiKTeX/texmfs/install/tex/latex/geometry/geometry.cfg)) (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/tools/longtable.sty
 Package: longtable 2024-12-18 v4.23 Multi-page Table package (DPC)
 \LTleft=\skip51
 \LTright=\skip52
@@ -292,9 +260,7 @@ Package: longtable 2024-12-18 v4.23 Multi-page Table package (DPC)
 \c@LT@tables=\count291
 \c@LT@chunks=\count292
 \LT@p@ftn=\toks21
-)
-(/Users/steven/Library/Application Support/MiKTeX/texmfs/install/tex/latex/enum
-item/enumitem.sty
+) (/Users/steven/Library/Application Support/MiKTeX/texmfs/install/tex/latex/enumitem/enumitem.sty
 Package: enumitem 2025/02/06 v3.11 Customized lists
 \labelindent=\skip55
 \enit@outerparindent=\dimen159
@@ -302,12 +268,9 @@ Package: enumitem 2025/02/06 v3.11 Customized lists
 \enit@inbox=\box58
 \enit@count@id=\count293
 \enitdp@description=\count294
-)
-(/Users/steven/Library/Application Support/MiKTeX/texmfs/install/tex/latex/sets
-pace/setspace.sty
+) (/Users/steven/Library/Application Support/MiKTeX/texmfs/install/tex/latex/setspace/setspace.sty
 Package: setspace 2022/12/04 v6.7b set line spacing
-)
-(/Library/Application Support/MiKTeX/texmfs/install/tex/latex/tools/array.sty
+) (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/tools/array.sty
 Package: array 2025/06/08 v2.6j Tabular extension package (FMi)
 \col@sep=\dimen160
 \ar@mcellbox=\box59
@@ -316,17 +279,13 @@ Package: array 2025/06/08 v2.6j Tabular extension package (FMi)
 \extratabsurround=\skip56
 \backup@length=\skip57
 \ar@cellbox=\box60
-)
-(/Users/steven/Library/Application Support/MiKTeX/texmfs/install/tex/latex/mult
-irow/multirow.sty
+) (/Users/steven/Library/Application Support/MiKTeX/texmfs/install/tex/latex/multirow/multirow.sty
 Package: multirow 2024/11/12 v2.9 Span multiple rows of a table
 \multirow@colwidth=\skip58
 \multirow@cntb=\count295
 \multirow@dima=\skip59
 \bigstrutjot=\dimen162
-)
-(/Library/Application Support/MiKTeX/texmfs/install/tex/latex/tools/tabularx.st
-y
+) (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/tools/tabularx.sty
 Package: tabularx 2023/12/11 v2.12a `tabularx' package (DPC)
 \TX@col@width=\dimen163
 \TX@old@table=\dimen164
@@ -335,17 +294,11 @@ Package: tabularx 2023/12/11 v2.12a `tabularx' package (DPC)
 \TX@delta=\dimen167
 \TX@cols=\count296
 \TX@ftn=\toks24
-)
-(/Users/steven/Library/Application Support/MiKTeX/texmfs/install/tex/latex/ltab
-lex/ltablex.sty
+) (/Users/steven/Library/Application Support/MiKTeX/texmfs/install/tex/latex/ltablex/ltablex.sty
 Package: ltablex 2014/08/13 v1.1 Modified tabularx
-)
-(/Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsfonts/amssymb.
-sty
+) (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
-
-(/Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsfonts/amsfonts
-.sty
+ (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \@emptytoks=\toks25
 \symAMSa=\mathgroup4
@@ -353,31 +306,21 @@ Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
-))
-(/Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsmath/amsmath.s
-ty
+)) (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2025/06/16 v2.17y AMS math features
 \@mathmargin=\skip60
 
 For additional information on amsmath, use the `?' option.
-
-(/Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsmath/amstext.s
-ty
+(/Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsmath/amstext.sty
 Package: amstext 2024/11/17 v2.01 AMS text
-
-(/Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsmath/amsgen.st
-y
+ (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks26
 \ex@=\dimen168
-))
-(/Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsmath/amsbsy.st
-y
+)) (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen169
-)
-(/Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsmath/amsopn.st
-y
+) (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2022/04/08 v2.04 operator names
 )
 \inf@bad=\count297
@@ -427,9 +370,7 @@ LaTeX Info: Redefining \Relbar on input line 970.
 \mathdisplay@stack=\toks30
 LaTeX Info: Redefining \[ on input line 2949.
 LaTeX Info: Redefining \] on input line 2950.
-)
-(/Users/steven/Library/Application Support/MiKTeX/texmfs/install/tex/latex/book
-tabs/booktabs.sty
+) (/Users/steven/Library/Application Support/MiKTeX/texmfs/install/tex/latex/booktabs/booktabs.sty
 Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \heavyrulewidth=\dimen177
 \lightrulewidth=\dimen178
@@ -448,11 +389,8 @@ Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \@thisruleclass=\count311
 \@lastruleclass=\count312
 \@thisrulewidth=\dimen189
-)
-(/Users/steven/Library/Application Support/MiKTeX/texmfs/install/tex/latex/sect
-sty/sectsty.sty
-Package: sectsty 2002/02/25 v2.0.2 Commands to change all sectional heading sty
-les
+) (/Users/steven/Library/Application Support/MiKTeX/texmfs/install/tex/latex/sectsty/sectsty.sty
+Package: sectsty 2002/02/25 v2.0.2 Commands to change all sectional heading styles
 
 
 LaTeX Warning: Command \underbar  has changed.
@@ -462,9 +400,7 @@ LaTeX Warning: Command \underbar  has changed.
 LaTeX Warning: Command \underline  has changed.
                Check if current package is valid.
 
-)
-(/Library/Application Support/MiKTeX/texmfs/install/tex/latex/l3backend/l3backe
-nd-pdftex.def
+) (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2025-06-09 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count313
 )
@@ -472,17 +408,7 @@ File: l3backend-pdftex.def 2025-06-09 L3 backend support: PDF output (pdfTeX)
 LaTeX Warning: Unused global option(s):
     [13pt].
 
-(main.aux
-LaTeX Font Info:    Trying to load font information for T5+cmr on input line 5.
-
-
-(/Users/steven/Library/Application Support/MiKTeX/texmfs/install/tex/latex/vnte
-x/t5cmr.fd
-File: t5cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
-)
-Package babel Info: 'vietnamese' activates 'vietnamese' shorthands.
-(babel)             Reported  on input line 5.
-)
+No file main.aux.
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 31.
@@ -500,7 +426,13 @@ LaTeX Font Info:    ... okay on input line 31.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 31.
 LaTeX Font Info:    ... okay on input line 31.
 LaTeX Font Info:    Checking defaults for T5/cmr/m/n on input line 31.
+LaTeX Font Info:    Trying to load font information for T5+cmr on input line 31.
+(/Users/steven/Library/Application Support/MiKTeX/texmfs/install/tex/latex/vntex/t5cmr.fd
+File: t5cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
 LaTeX Font Info:    ... okay on input line 31.
+Package babel Info: 'vietnamese' activates 'vietnamese' shorthands.
+(babel)             Reported  on input line 31.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -537,13 +469,11 @@ LaTeX Font Info:    ... okay on input line 31.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 LaTeX Font Info:    Trying to load font information for U+msa on input line 35.
-
 (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Trying to load font information for U+msb on input line 35.
-
-(/Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsfonts/umsb.fd
+ (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 Overfull \hbox (46.76358pt too wide) in paragraph at lines 35--51
@@ -559,5 +489,155 @@ Overfull \hbox (3.07788pt too wide) in paragraph at lines 60--113
 
 [1
 
-{/Users/steven/Library/Application Support/MiKTeX/texmfs/data/fonts/map/pdftex/
-pdftex
+{/Users/steven/Library/Application Support/MiKTeX/texmfs/data/fonts/map/pdftex/pdftex.map}]
+
+[2]
+Overfull \hbox (5.4944pt too wide) in alignment at lines 184--206
+ [] [] [] [] [] 
+ []
+
+
+
+[3]
+Overfull \hbox (62.3999pt too wide) in alignment at lines 212--246
+ [] [] [] [] [] 
+ []
+
+[4]
+Overfull \hbox (32.13641pt too wide) in alignment at lines 249--255
+ [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (32.13641pt too wide) in alignment at lines 255--261
+ [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (32.13641pt too wide) in alignment at lines 261--270
+ [] [] [] [] [] 
+ []
+
+
+
+[5] [6]
+Overfull \hbox (38.56819pt too wide) in paragraph at lines 275--275
+ []|[]| 
+ []
+
+
+Overfull \hbox (12.61224pt too wide) in paragraph at lines 275--275
+ []|[]| 
+ []
+
+
+Overfull \hbox (82.54724pt too wide) in paragraph at lines 275--275
+ []|[]| 
+ []
+
+
+Overfull \hbox (30.29437pt too wide) in alignment at lines 273--279
+ [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (38.56819pt too wide) in paragraph at lines 281--281
+ []|[]| 
+ []
+
+
+Overfull \hbox (12.61224pt too wide) in paragraph at lines 281--281
+ []|[]| 
+ []
+
+
+Overfull \hbox (82.54724pt too wide) in paragraph at lines 281--281
+ []|[]| 
+ []
+
+
+Overfull \hbox (30.29437pt too wide) in alignment at lines 279--285
+ [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (5.30153pt too wide) in paragraph at lines 286--286
+ []|\T5/cmr/m/n/10 Independently 
+ []
+
+
+Overfull \hbox (63.54494pt too wide) in paragraph at lines 290--290
+ []|\T5/cmr/m/n/10 https://docs.docker.com| 
+ []
+
+
+Overfull \hbox (74.70888pt too wide) in paragraph at lines 292--292
+ []|\T5/cmr/m/n/10 https://kubernetes.io/docs| 
+ []
+
+
+Overfull \hbox (98.84187pt too wide) in paragraph at lines 294--294
+ []|\T5/cmr/m/n/10 https://docs.github.com/actions| 
+ []
+
+/Users/steven/repositories/course-syllabi/Phﾃ｡t tri盻ハ 盻ｩng d盻･ng trﾃｪn Linux/main.tex:297: Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \penalty \@M \futurelet \@let@token \LT@@h...
+l.297 \hline
+            
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+/Users/steven/repositories/course-syllabi/Phﾃ｡t tri盻ハ 盻ｩng d盻･ng trﾃｪn Linux/main.tex:298: Misplaced \omit.
+\multispan ->\omit 
+                   \@multispan 
+l.298 \end
+          {longtable}
+I expect to see \omit only after tab marks or the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+
+Overfull \hbox (78.0414pt too wide) in paragraph at lines 296--298
+ []|\T5/cmr/m/n/10 https://prometheus.io/docs 
+ []
+
+
+Overfull \hbox (30.29437pt too wide) in alignment at lines 285--298
+ [] [] [] [] [] [] [] 
+ []
+
+
+
+[7]
+Underfull \hbox (badness 1939) in paragraph at lines 320--320
+[]|\T5/cmr/m/n/10 Trｭc nghiｻm gi俉
+ []
+
+
+Overfull \hbox (7.54723pt too wide) in paragraph at lines 336--340
+ [] 
+ []
+
+
+
+[8] (main.aux)
+ ***********
+LaTeX2e <2025-06-01> patch level 1
+L3 programming layer <2025-07-11>
+ ***********
+ ) 
+Here is how much of TeX's memory you used:
+ 4805 strings out of 470090
+ 77472 string characters out of 2481814
+ 502901 words of memory out of 3000000
+ 33111 multiletter control sequences out of 15000+600000
+ 639769 words of font info for 69 fonts, out of 8000000 for 9000
+ 0 hyphenation exceptions out of 8191
+ 57i,20n,65p,592b,355s stack positions out of 5000i,500n,10000p,200000b,80000s
+ </Users/steven/Library/Application Support/MiKTeX/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1000.pk></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/symbols/msam10.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/symbols/msam7.pfb></Users/steven/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/vntex/vnr/vnbx10.pfb></Users/steven/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/vntex/vnr/vnbx12.pfb></Users/steven/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/vntex/vnr/vnr10.pfb>
+Output written on main.pdf (8 pages, 111954 bytes).
+PDF statistics:
+ 59 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+

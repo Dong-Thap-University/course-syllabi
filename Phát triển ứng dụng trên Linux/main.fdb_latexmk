@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1753636127.36303 "/Users/steven/repositories/course-syllabi/Phát triển ứng dụng trên Linux/main.tex" "main.pdf" "main" 1753636128.19599 2
+["pdflatex"] 1754102728.76557 "/Users/steven/repositories/course-syllabi/Phát triển ứng dụng trên Linux/main.tex" "main.pdf" "main" 1754102729.58464 2
   "/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/jknappen/ec/tcrm1000.tfm" 1753288632.81427 1436 c7f957a372ef2fbe93c0982f96625e12 ""
   "/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1753288611.41771 1004 54797486969f23fa377b128694d548df ""
   "/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/amsfonts/cmextra/cmex9.tfm" 1753288611.41799 996 a18840b13b499c08ac2de96a99eda4bc ""
@@ -66,9 +66,9 @@
   "/Users/steven/Library/Application Support/MiKTeX/texmfs/install/tex/latex/vntex/t5cmr.fd" 1753288707.29864 1333 ab1c3d512aa3d88df568aed3641db58f ""
   "/Users/steven/Library/Application Support/MiKTeX/texmfs/install/tex/latex/vntex/t5enc.def" 1753288707.29924 21986 ccb3b8f7cc27fbd61b3daabbbb82ad3f ""
   "/Users/steven/Library/Application Support/MiKTeX/texmfs/install/tex/latex/vntex/t5enc.dfu" 1753288707.29937 13949 387dd4fa58aea5f873839c93430fffed ""
-  "/Users/steven/repositories/course-syllabi/Phát triển ứng dụng trên Linux/main.tex" 1753636126.48171 19571 0cdc738c89e6005882a4cd39200e48a1 ""
-  "main.aux" 1753636128.01153 1138 8bcf73d507840b8053a2a823156256af "pdflatex"
-  "main.tex" 1753636126.48171 19571 0cdc738c89e6005882a4cd39200e48a1 ""
+  "/Users/steven/repositories/course-syllabi/Phát triển ứng dụng trên Linux/main.tex" 1754102726.46557 19360 30f130a1a60f1fde59f9b1ee1b12d04d ""
+  "main.aux" 1754102729.38001 1138 8bcf73d507840b8053a2a823156256af "pdflatex"
+  "main.tex" 1754102726.46557 19360 30f130a1a60f1fde59f9b1ee1b12d04d ""
   (generated)
   "main.aux"
   "main.log"
