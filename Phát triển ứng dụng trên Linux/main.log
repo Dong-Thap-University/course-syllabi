@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2025.7.23)  2 AUG 2025 09:45
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2025.7.23)  4 AUG 2025 11:04
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -408,7 +408,14 @@ File: l3backend-pdftex.def 2025-06-09 L3 backend support: PDF output (pdfTeX)
 LaTeX Warning: Unused global option(s):
     [13pt].
 
-No file main.aux.
+(main.aux
+LaTeX Font Info:    Trying to load font information for T5+cmr on input line 5.
+ (/Users/steven/Library/Application Support/MiKTeX/texmfs/install/tex/latex/vntex/t5cmr.fd
+File: t5cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+Package babel Info: 'vietnamese' activates 'vietnamese' shorthands.
+(babel)             Reported  on input line 5.
+)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 31.
@@ -426,13 +433,7 @@ LaTeX Font Info:    ... okay on input line 31.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 31.
 LaTeX Font Info:    ... okay on input line 31.
 LaTeX Font Info:    Checking defaults for T5/cmr/m/n on input line 31.
-LaTeX Font Info:    Trying to load font information for T5+cmr on input line 31.
-(/Users/steven/Library/Application Support/MiKTeX/texmfs/install/tex/latex/vntex/t5cmr.fd
-File: t5cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
-)
 LaTeX Font Info:    ... okay on input line 31.
-Package babel Info: 'vietnamese' activates 'vietnamese' shorthands.
-(babel)             Reported  on input line 31.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -480,164 +481,154 @@ Overfull \hbox (46.76358pt too wide) in paragraph at lines 35--51
  [] 
  []
 
+(sections/01_course_info.tex) (sections/02_lecturers.tex
+Overfull \hbox (3.07788pt too wide) in paragraph at lines 2--1
+[]
+ []
 
-Overfull \hbox (3.07788pt too wide) in paragraph at lines 60--113
-[] 
+
+Underfull \hbox (badness 10000) in paragraph at lines 2--1
+
  []
 
 
 
 [1
 
-{/Users/steven/Library/Application Support/MiKTeX/texmfs/data/fonts/map/pdftex/pdftex.map}]
+{/Users/steven/Library/Application Support/MiKTeX/texmfs/data/fonts/map/pdftex/pdftex.map}]) (sections/03_course_description.tex) (sections/04_learning_objectives.tex
 
-[2]
-Overfull \hbox (5.4944pt too wide) in alignment at lines 184--206
- [] [] [] [] [] 
+[2]) (sections/05_clo_outcomes.tex) (sections/06_clo_plo_matrix.tex) (sections/07_course_content.tex
+Overfull \hbox (56.60013pt too wide) in alignment at lines 4--27
+ [] [] [] [] [] [] 
  []
 
 
 
 [3]
-Overfull \hbox (62.3999pt too wide) in alignment at lines 212--246
- [] [] [] [] [] 
+Overfull \hbox (56.60013pt too wide) in alignment at lines 30--58
+ [] [] [] [] [] [] 
  []
 
-[4]
-Overfull \hbox (32.13641pt too wide) in alignment at lines 249--255
- [] [] [] [] [] 
- []
-
-
-Overfull \hbox (32.13641pt too wide) in alignment at lines 255--261
- [] [] [] [] [] 
- []
-
-
-Overfull \hbox (32.13641pt too wide) in alignment at lines 261--270
- [] [] [] [] [] 
- []
-
-
-
-[5] [6]
-Overfull \hbox (38.56819pt too wide) in paragraph at lines 275--275
+[4]) (sections/08_learning_resources.tex
+Overfull \hbox (11.60718pt too wide) in paragraph at lines 36--36
  []|[]| 
  []
 
 
-Overfull \hbox (12.61224pt too wide) in paragraph at lines 275--275
+Overfull \hbox (13.20401pt too wide) in paragraph at lines 36--36
+[]|  
+ []
+
+
+Overfull \hbox (28.25589pt too wide) in paragraph at lines 36--36
  []|[]| 
  []
 
 
-Overfull \hbox (82.54724pt too wide) in paragraph at lines 275--275
+Overfull \hbox (25.06223pt too wide) in paragraph at lines 36--36
  []|[]| 
  []
 
 
-Overfull \hbox (30.29437pt too wide) in alignment at lines 273--279
- [] [] [] [] [] [] [] 
+Overfull \hbox (80.77084pt too wide) in paragraph at lines 36--36
+[]|  
  []
 
 
-Overfull \hbox (38.56819pt too wide) in paragraph at lines 281--281
- []|[]| 
+Overfull \hbox (22.61143pt too wide) in paragraph at lines 36--36
+\T5/cmr/m/n/10 Documentation|  
  []
 
 
-Overfull \hbox (12.61224pt too wide) in paragraph at lines 281--281
- []|[]| 
+Overfull \hbox (4.42143pt too wide) in paragraph at lines 36--36
+ \T5/cmr/m/n/10 Computing| 
  []
 
 
-Overfull \hbox (82.54724pt too wide) in paragraph at lines 281--281
- []|[]| 
+Overfull \hbox (22.61143pt too wide) in paragraph at lines 36--36
+\T5/cmr/m/n/10 Documentation|  
  []
 
 
-Overfull \hbox (30.29437pt too wide) in alignment at lines 279--285
- [] [] [] [] [] [] [] 
+Overfull \hbox (4.42143pt too wide) in paragraph at lines 36--36
+ \T5/cmr/m/n/10 Computing| 
  []
 
 
-Overfull \hbox (5.30153pt too wide) in paragraph at lines 286--286
- []|\T5/cmr/m/n/10 Independently 
+Overfull \hbox (7.83727pt too wide) in paragraph at lines 36--36
+ \T5/cmr/m/n/10 PostgreSQL 
  []
 
 
-Overfull \hbox (63.54494pt too wide) in paragraph at lines 290--290
- []|\T5/cmr/m/n/10 https://docs.docker.com| 
+Overfull \hbox (12.33617pt too wide) in paragraph at lines 36--36
+ \T5/cmr/m/n/10 Development 
  []
 
 
-Overfull \hbox (74.70888pt too wide) in paragraph at lines 292--292
- []|\T5/cmr/m/n/10 https://kubernetes.io/docs| 
+Overfull \hbox (7.83727pt too wide) in paragraph at lines 36--36
+\T5/cmr/m/n/10 PostgreSQL 
  []
 
 
-Overfull \hbox (98.84187pt too wide) in paragraph at lines 294--294
- []|\T5/cmr/m/n/10 https://docs.github.com/actions| 
- []
-
-/Users/steven/repositories/course-syllabi/Phát triển ứng dụng trên Linux/main.tex:297: Misplaced \noalign.
-\hline ->\noalign 
-                  {\ifnum 0=`}\fi \penalty \@M \futurelet \@let@token \LT@@h...
-l.297 \hline
-            
-I expect to see \noalign only after the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-/Users/steven/repositories/course-syllabi/Phát triển ứng dụng trên Linux/main.tex:298: Misplaced \omit.
-\multispan ->\omit 
-                   \@multispan 
-l.298 \end
-          {longtable}
-I expect to see \omit only after tab marks or the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-
-Overfull \hbox (78.0414pt too wide) in paragraph at lines 296--298
- []|\T5/cmr/m/n/10 https://prometheus.io/docs 
+Overfull \hbox (22.61143pt too wide) in paragraph at lines 36--36
+\T5/cmr/m/n/10 Documentation|  
  []
 
 
-Overfull \hbox (30.29437pt too wide) in alignment at lines 285--298
- [] [] [] [] [] [] [] 
+Overfull \hbox (7.83727pt too wide) in paragraph at lines 36--36
+ []|\T5/cmr/m/n/10 PostgreSQL| 
  []
 
 
-
-[7]
-Underfull \hbox (badness 1939) in paragraph at lines 320--320
-[]|\T5/cmr/m/n/10 Tr�c nghi�m gi�a
+Overfull \hbox (22.61143pt too wide) in paragraph at lines 36--36
+\T5/cmr/m/n/10 Documentation|  
  []
 
 
-Overfull \hbox (7.54723pt too wide) in paragraph at lines 336--340
+Overfull \hbox (0.5335pt too wide) in paragraph at lines 36--36
+\T5/cmr/m/n/10 Handbook|  
+ []
+
+
+Overfull \hbox (18.3347pt too wide) in paragraph at lines 36--36
+ []|\T5/cmr/m/n/10 CommonMark| 
+ []
+
+
+Overfull \hbox (1.94981pt too wide) in paragraph at lines 36--36
+\T5/cmr/m/n/10 Markdown 
+ []
+
+
+Overfull \hbox (1.94981pt too wide) in paragraph at lines 36--36
+ []|\T5/cmr/m/n/10 Markdown 
+ []
+
+[5]) (sections/09_student_regulations.tex) (sections/10_assessment_methods.tex [6])
+Overfull \hbox (7.54723pt too wide) in paragraph at lines 76--80
  [] 
  []
 
 
 
-[8] (main.aux)
+[7] (main.aux)
  ***********
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-07-11>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 4805 strings out of 470090
- 77472 string characters out of 2481814
- 502901 words of memory out of 3000000
- 33111 multiletter control sequences out of 15000+600000
+ 4884 strings out of 470090
+ 81230 string characters out of 2481814
+ 511462 words of memory out of 3000000
+ 33156 multiletter control sequences out of 15000+600000
  639769 words of font info for 69 fonts, out of 8000000 for 9000
  0 hyphenation exceptions out of 8191
- 57i,20n,65p,592b,355s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 57i,20n,65p,631b,355s stack positions out of 5000i,500n,10000p,200000b,80000s
  </Users/steven/Library/Application Support/MiKTeX/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1000.pk></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/symbols/msam10.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/symbols/msam7.pfb></Users/steven/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/vntex/vnr/vnbx10.pfb></Users/steven/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/vntex/vnr/vnbx12.pfb></Users/steven/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/vntex/vnr/vnr10.pfb>
-Output written on main.pdf (8 pages, 111954 bytes).
+Output written on main.pdf (7 pages, 111877 bytes).
 PDF statistics:
- 59 PDF objects out of 1000 (max. 8388607)
+ 56 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

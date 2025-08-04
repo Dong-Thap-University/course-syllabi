@@ -73,11 +73,14 @@ INPUT /Users/steven/Library/Application Support/MiKTeX/texmfs/install/tex/latex/
 INPUT /Users/steven/Library/Application Support/MiKTeX/texmfs/install/tex/latex/sectsty/sectsty.sty
 INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/latex/l3backend/l3backend-pdftex.def
 INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/latex/l3backend/l3backend-pdftex.def
-OUTPUT main.aux
+INPUT ./main.aux
+INPUT ./main.aux
+INPUT main.aux
 INPUT /Users/steven/Library/Application Support/MiKTeX/texmfs/install/tex/latex/vntex/t5cmr.fd
 INPUT /Users/steven/Library/Application Support/MiKTeX/texmfs/install/tex/latex/vntex/t5cmr.fd
 INPUT /Users/steven/Library/Application Support/MiKTeX/texmfs/install/tex/latex/vntex/t5cmr.fd
 INPUT /Users/steven/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/vntex/vnr/vnr10.tfm
+OUTPUT main.aux
 INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
 INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
 INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsfonts/umsa.fd
@@ -94,6 +97,11 @@ INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/amsfon
 INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/amsfonts/symbols/msbm5.tfm
 INPUT /Users/steven/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/vntex/vnr/vnbx10.tfm
 INPUT /Users/steven/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/vntex/vnr/vnbx12.tfm
+INPUT ./sections/01_course_info.tex
+INPUT ./sections/01_course_info.tex
+INPUT ./sections/01_course_info.tex
+INPUT ./sections/01_course_info.tex
+INPUT sections/01_course_info.tex
 INPUT /Users/steven/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/vntex/vnr/vnr12.tfm
 INPUT /Users/steven/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/vntex/vnr/vnbx12.tfm
 INPUT /Users/steven/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/vntex/vnr/vnr9.tfm
@@ -111,9 +119,54 @@ INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/amsfon
 INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
 INPUT /Users/steven/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/vntex/vnr/vnr7.tfm
 INPUT /Users/steven/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/vntex/vnr/vnr5.tfm
+INPUT ./sections/02_lecturers.tex
+INPUT ./sections/02_lecturers.tex
+INPUT ./sections/02_lecturers.tex
+INPUT ./sections/02_lecturers.tex
+INPUT sections/02_lecturers.tex
 INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/jknappen/ec/tcrm1000.tfm
 OUTPUT main.pdf
 INPUT /Users/steven/Library/Application Support/MiKTeX/texmfs/data/fonts/map/pdftex/pdftex.map
+INPUT ./sections/03_course_description.tex
+INPUT ./sections/03_course_description.tex
+INPUT ./sections/03_course_description.tex
+INPUT ./sections/03_course_description.tex
+INPUT sections/03_course_description.tex
+INPUT ./sections/04_learning_objectives.tex
+INPUT ./sections/04_learning_objectives.tex
+INPUT ./sections/04_learning_objectives.tex
+INPUT ./sections/04_learning_objectives.tex
+INPUT sections/04_learning_objectives.tex
+INPUT ./sections/05_clo_outcomes.tex
+INPUT ./sections/05_clo_outcomes.tex
+INPUT ./sections/05_clo_outcomes.tex
+INPUT ./sections/05_clo_outcomes.tex
+INPUT sections/05_clo_outcomes.tex
+INPUT ./sections/06_clo_plo_matrix.tex
+INPUT ./sections/06_clo_plo_matrix.tex
+INPUT ./sections/06_clo_plo_matrix.tex
+INPUT ./sections/06_clo_plo_matrix.tex
+INPUT sections/06_clo_plo_matrix.tex
+INPUT ./sections/07_course_content.tex
+INPUT ./sections/07_course_content.tex
+INPUT ./sections/07_course_content.tex
+INPUT ./sections/07_course_content.tex
+INPUT sections/07_course_content.tex
+INPUT ./sections/08_learning_resources.tex
+INPUT ./sections/08_learning_resources.tex
+INPUT ./sections/08_learning_resources.tex
+INPUT ./sections/08_learning_resources.tex
+INPUT sections/08_learning_resources.tex
+INPUT ./sections/09_student_regulations.tex
+INPUT ./sections/09_student_regulations.tex
+INPUT ./sections/09_student_regulations.tex
+INPUT ./sections/09_student_regulations.tex
+INPUT sections/09_student_regulations.tex
+INPUT ./sections/10_assessment_methods.tex
+INPUT ./sections/10_assessment_methods.tex
+INPUT ./sections/10_assessment_methods.tex
+INPUT ./sections/10_assessment_methods.tex
+INPUT sections/10_assessment_methods.tex
 INPUT main.aux
 INPUT /Users/steven/Library/Application Support/MiKTeX/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1000.pk
 INPUT /Users/steven/Library/Application Support/MiKTeX/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1000.pk

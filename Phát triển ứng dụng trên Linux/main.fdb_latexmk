@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1754102728.76557 "/Users/steven/repositories/course-syllabi/Phát triển ứng dụng trên Linux/main.tex" "main.pdf" "main" 1754102729.58464 2
+["pdflatex"] 1754280292.88027 "/Users/steven/repositories/course-syllabi/Phát triển ứng dụng trên Linux/main.tex" "main.pdf" "main" 1754280293.6283 0
   "/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/jknappen/ec/tcrm1000.tfm" 1753288632.81427 1436 c7f957a372ef2fbe93c0982f96625e12 ""
   "/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1753288611.41771 1004 54797486969f23fa377b128694d548df ""
   "/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/amsfonts/cmextra/cmex9.tfm" 1753288611.41799 996 a18840b13b499c08ac2de96a99eda4bc ""
@@ -66,9 +66,19 @@
   "/Users/steven/Library/Application Support/MiKTeX/texmfs/install/tex/latex/vntex/t5cmr.fd" 1753288707.29864 1333 ab1c3d512aa3d88df568aed3641db58f ""
   "/Users/steven/Library/Application Support/MiKTeX/texmfs/install/tex/latex/vntex/t5enc.def" 1753288707.29924 21986 ccb3b8f7cc27fbd61b3daabbbb82ad3f ""
   "/Users/steven/Library/Application Support/MiKTeX/texmfs/install/tex/latex/vntex/t5enc.dfu" 1753288707.29937 13949 387dd4fa58aea5f873839c93430fffed ""
-  "/Users/steven/repositories/course-syllabi/Phát triển ứng dụng trên Linux/main.tex" 1754102726.46557 19360 30f130a1a60f1fde59f9b1ee1b12d04d ""
-  "main.aux" 1754102729.38001 1138 8bcf73d507840b8053a2a823156256af "pdflatex"
-  "main.tex" 1754102726.46557 19360 30f130a1a60f1fde59f9b1ee1b12d04d ""
+  "/Users/steven/repositories/course-syllabi/Phát triển ứng dụng trên Linux/main.tex" 1754279195.42154 2431 a5d9e083f9eb4b54335b3b8c162eaafa ""
+  "main.aux" 1754280293.47926 1316 a48db7c0386e0ddf9cdbad20d9ec3c20 "pdflatex"
+  "main.tex" 1754279195.42154 2431 a5d9e083f9eb4b54335b3b8c162eaafa ""
+  "sections/01_course_info.tex" 1754279195.53154 1685 9620944470b90c098eb39cf87f445bdd ""
+  "sections/02_lecturers.tex" 1754279195.5229 361 698ee006fc3d995bf9beaaa62261d787 ""
+  "sections/03_course_description.tex" 1754279195.52756 1340 ebcfe0cf92130a5c81fe4d352bbcf9c7 ""
+  "sections/04_learning_objectives.tex" 1754279195.51833 1200 d77257191f354096551a6e5c11170185 ""
+  "sections/05_clo_outcomes.tex" 1754279195.51805 939 3cf3adef49dcc76ec07b1f8212ff0868 ""
+  "sections/06_clo_plo_matrix.tex" 1754279195.51269 938 dc6ed1f31389e9f00bb4a8674a09855d ""
+  "sections/07_course_content.tex" 1754280291.3429 4965 458fc57e3b04e2eafeada16a67f085b8 ""
+  "sections/08_learning_resources.tex" 1754280066.80467 1364 bff97ce2c4bfd020a0b4adf66a51e1a6 ""
+  "sections/09_student_regulations.tex" 1754279266.68861 695 d59c4aba7e5ecacce206460d91da27b7 ""
+  "sections/10_assessment_methods.tex" 1754279293.80769 1419 ac2331e9b0305243717f6f5c264c1b05 ""
   (generated)
   "main.aux"
   "main.log"
